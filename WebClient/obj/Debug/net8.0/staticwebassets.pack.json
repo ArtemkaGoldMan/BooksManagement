@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClient\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebClient.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebClient.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClient\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClient\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClient\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClient\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebClient.props",
+      "PackagePath": "build\\WebClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebClient.props",
+      "PackagePath": "buildMultiTargeting\\WebClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebClient.props",
+      "PackagePath": "buildTransitive\\WebClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
