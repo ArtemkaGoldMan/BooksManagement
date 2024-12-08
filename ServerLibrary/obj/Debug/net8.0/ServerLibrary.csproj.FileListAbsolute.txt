@@ -24,3 +24,4 @@ C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\ServerLibrary\ob
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\ServerLibrary\obj\Debug\net8.0\refint\ServerLibrary.dll
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.pdb
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\ServerLibrary\obj\Debug\net8.0\ref\ServerLibrary.dll
+C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.sourcelink.json

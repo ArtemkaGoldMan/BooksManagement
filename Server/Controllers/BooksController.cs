@@ -3,6 +3,7 @@ using BaseLibrary.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServerLibrary.Services.Contracts;
+using ServerLibrary.Services.Implementations;
 
 namespace Server.Controllers
 {
@@ -20,11 +21,10 @@ namespace Server.Controllers
         [HttpGet]
         public async Task<IActionResult> GetBooks([FromQuery] string? search, [FromQuery] string? sortBy, [FromQuery] bool ascending = true, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
-            var books = await _repository.GetBooksAsync(search, sortBy, ascending, pageNumber, pageSize);
-            var totalCount = await _repository.GetTotalCountAsync();
-
-            return Ok(new { books, totalCount });
+            var response = await _repository.GetBooksAsync(search, sortBy, ascending, pageNumber, pageSize);
+            return Ok(response);
         }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBook(int id)

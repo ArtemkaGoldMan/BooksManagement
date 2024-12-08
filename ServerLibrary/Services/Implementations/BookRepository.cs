@@ -1,4 +1,5 @@
 ﻿using BaseLibrary.Entities;
+using BaseLibrary.Response;
 using Microsoft.EntityFrameworkCore;
 using ServerLibrary.Data;
 using ServerLibrary.Services.Contracts;
@@ -19,13 +20,19 @@ namespace ServerLibrary.Services.Implementations
             _context = context;
         }
 
-        public async Task<IEnumerable<Book>> GetBooksAsync(string? search, string? sortBy, bool ascending, int pageNumber, int pageSize)
+        public async Task<PagedResponse<Book>> GetBooksAsync(string? search, string? sortBy, bool ascending, int pageNumber, int pageSize)
         {
             var query = _context.Books.AsQueryable();
+
+            // Total count before applying filters
+            int totalCount = await query.CountAsync();
 
             // Filtering
             if (!string.IsNullOrEmpty(search))
                 query = query.Where(b => b.Title.Contains(search) || b.Author.Contains(search) || b.Genre.Contains(search));
+
+            // Filtered count after applying filters
+            int filteredCount = await query.CountAsync();
 
             // Sorting
             query = sortBy switch
@@ -34,15 +41,24 @@ namespace ServerLibrary.Services.Implementations
                 "Price" => ascending ? query.OrderBy(b => b.Price) : query.OrderByDescending(b => b.Price),
                 "Genre" => ascending ? query.OrderBy(b => b.Genre) : query.OrderByDescending(b => b.Genre),
                 "Author" => ascending ? query.OrderBy(b => b.Author) : query.OrderByDescending(b => b.Author),
-                _ => query // Default case: no sorting
+                _ => query.OrderBy(b => b.Id) // Default case: no sorting
             };
 
             // Pagination
-            return await query
+            var items = await query
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
+
+            // Return both items and counts
+            return new PagedResponse<Book>
+            {
+                Items = items,
+                TotalCount = totalCount,
+                FilteredCount = filteredCount
+            };
         }
+
 
         public async Task<Book?> GetBookByIdAsync(int id)
         {

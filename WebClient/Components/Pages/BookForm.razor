@@ -1,4 +1,6 @@
-﻿@inject HttpClient Http
+﻿@page "/books/edit/{BookId:int?}"
+@inject HttpClient Http
+@inject NavigationManager Navigation
 @using BaseLibrary.Entities
 
 @code {
@@ -26,6 +28,11 @@
             await Http.PostAsJsonAsync("api/Books", Book);
         }
     }
+
+    private async Task Cancel()
+    {
+        Navigation.NavigateTo("/books");
+    }
 }
 
 <form>
@@ -46,4 +53,5 @@
         <input type="number" @bind="Book.Price" />
     </div>
     <button @onclick="SaveBook">Save</button>
+    <button @onclick="Cancel">Cancel</button>
 </form>

@@ -97,3 +97,4 @@ C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClient\bin\De
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClient\bin\Debug\net8.0\ServerLibrary.pdb
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClient\bin\Debug\net8.0\Server.pdb
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClient\obj\Debug\net8.0\WebClient.csproj.Up2Date
+C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClient\obj\Debug\net8.0\WebClient.sourcelink.json

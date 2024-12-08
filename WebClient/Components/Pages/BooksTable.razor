@@ -1,11 +1,15 @@
 ﻿@inject HttpClient Http
 @using BaseLibrary.Entities
 @using BaseLibrary.Response
+@rendermode InteractiveServer
+@inject NavigationManager Navigation
+
 @page "/books"
 
 <h3>Books</h3>
 
 <div>
+    <button class="btn btn-primary" @onclick="CreateBook">Create New</button>
     <input type="text" @bind="SearchTerm" placeholder="Search..." />
     <button @onclick="LoadBooks">Search</button>
 </div>
@@ -13,10 +17,10 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th @onclick="@(() => Sort("Title"))">Title</th>
-            <th @onclick="@(() => Sort("Author"))">Author</th>
-            <th @onclick="@(() => Sort("Genre"))">Genre</th>
-            <th @onclick="@(() => Sort("Price"))">Price</th>
+            <th @onclick="@(() => Sort("Title"))" style="cursor: pointer;">Title</th>
+            <th @onclick="@(() => Sort("Author"))" style="cursor: pointer;">Author</th>
+            <th @onclick="@(() => Sort("Genre"))" style="cursor: pointer;">Genre</th>
+            <th @onclick="@(() => Sort("Price"))" style="cursor: pointer;">Price</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -29,8 +33,8 @@
                 <td>@book.Genre</td>
                 <td>@book.Price</td>
                 <td>
-                    <button @onclick="() => EditBook(book.Id)">Edit</button>
-                    <button @onclick="() => DeleteBook(book.Id)">Delete</button>
+                    <button class="btn btn-primary" @onclick="() => EditBook(book.Id)">Edit</button>
+                    <button class="btn btn-danger" @onclick="() => DeleteBook(book.Id)">Delete</button>
                 </td>
             </tr>
         }
@@ -54,38 +58,39 @@
 
     protected override async Task OnInitializedAsync()
     {
-        try
-        {
-            // Test connection to API
-            var response = await Http.GetAsync("api/Books");
-            if (response.IsSuccessStatusCode)
-            {
-                await LoadBooks();
-            }
-            else
-            {
-                Console.WriteLine($"API Test Failed: {response.StatusCode}");
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error connecting to API: {ex.Message}");
-        }
+        Console.WriteLine("Initializing component");
+        await LoadBooks();
     }
 
     private async Task LoadBooks()
     {
-        var response = await Http.GetFromJsonAsync<PagedResponse<Book>>(
-            $"api/Books?ascending={Ascending}&pageNumber={CurrentPage}&pageSize={PageSize}&search={SearchTerm}");
-        if (response != null)
+        try
         {
-            Books = response.Items;
-            TotalPages = response.TotalPages;
+            Console.WriteLine($"Loading books: Page {CurrentPage}, Sort by {SortColumn}, Ascending {Ascending}");
+            var response = await Http.GetFromJsonAsync<PagedResponse<Book>>(
+                $"api/Books?ascending={Ascending}&pageNumber={CurrentPage}&pageSize={PageSize}&search={SearchTerm}");
+            if (response != null)
+            {
+                Console.WriteLine($"Response received. Filtered books: {response.FilteredCount}");
+                Books = response.Items;
+                TotalPages = (int)Math.Ceiling((double)response.FilteredCount / PageSize);
+                Console.WriteLine($"Books loaded. Current page: {CurrentPage} of {TotalPages}");
+            }
+            else
+            {
+                Console.WriteLine("No response from API");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading books: {ex.Message}");
         }
     }
 
-    private void Sort(string column)
+
+    private async Task Sort(string column)
     {
+        Console.WriteLine($"Sorting by: {column}");
         if (SortColumn == column)
         {
             Ascending = !Ascending;
@@ -95,39 +100,63 @@
             SortColumn = column;
             Ascending = true;
         }
-        LoadBooks();
+        await LoadBooks();
     }
 
-
-    private void NextPage()
+    private async Task NextPage()
     {
-        if (!IsLastPage)
+        Console.WriteLine("Next button clicked");
+        if (CurrentPage < TotalPages)
         {
             CurrentPage++;
-            LoadBooks();
+            await LoadBooks();
+        }
+        else
+        {
+            Console.WriteLine("Already on the last page");
         }
     }
 
-    private void PreviousPage()
+    private async Task PreviousPage()
     {
-        if (!IsFirstPage)
+        Console.WriteLine("Previous button clicked");
+        if (CurrentPage > 1)
         {
             CurrentPage--;
-            LoadBooks();
+            await LoadBooks();
+        }
+        else
+        {
+            Console.WriteLine("Already on the first page");
         }
     }
 
     private bool IsFirstPage => CurrentPage == 1;
-    private bool IsLastPage => CurrentPage == TotalPages;
+    private bool IsLastPage => CurrentPage >= TotalPages;
 
-    private void EditBook(int id)
+    private async Task CreateBook()
     {
-        // Navigate to edit page
+        Navigation.NavigateTo("/books/edit");
     }
 
-    private void DeleteBook(int id)
+    private async Task EditBook(int id)
     {
-        // Handle delete
+        Navigation.NavigateTo($"/books/edit/{id}");
+    }
+
+    private async Task DeleteBook(int id)
+    {
+        Console.WriteLine($"Deleting book with ID: {id}");
+        var response = await Http.DeleteAsync($"api/Books/{id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            Console.WriteLine("Book deleted successfully");
+            await LoadBooks();
+        }
+        else
+        {
+            Console.WriteLine($"Failed to delete book: {response.ReasonPhrase}");
+        }
     }
 }
-
