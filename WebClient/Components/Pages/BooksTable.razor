@@ -3,6 +3,7 @@
 @using BaseLibrary.Response
 @rendermode InteractiveServer
 @inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
 
 @page "/books"
 
@@ -130,7 +131,25 @@
 
     protected override async Task OnInitializedAsync()
     {
+        await SetPageSizeBasedOnViewport();
         await LoadBooks();
+    }
+
+    private async Task SetPageSizeBasedOnViewport()
+    {
+        try
+        {
+            // Call JavaScript to get the viewport height
+            int viewportHeight = await JSRuntime.InvokeAsync<int>("getViewportHeight");
+
+            // Adjust the PageSize based on viewport height (e.g., assume each row takes ~50px)
+            PageSize = Math.Max((viewportHeight - 200) / 70, 5); // Ensure at least 5 items per page
+            Console.WriteLine($"Viewport height: {viewportHeight}, Calculated PageSize: {PageSize}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error calculating page size: {ex.Message}");
+        }
     }
 
     private async Task LoadBooks()
@@ -274,3 +293,8 @@
         }
     }
 }
+<script>
+    window.getViewportHeight = function () {
+        return window.innerHeight;
+    };
+</script>
