@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace BaseLibrary.Entities
 {
-    public class Book
+    public class User
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public decimal Price { get; set; }
-        public DateTime PublishedDate { get; set; }
-        public string Genre { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Role { get; set; } // Admin or Member
         public ICollection<Borrow> Borrows { get; set; } // Navigation property
     }
 }
