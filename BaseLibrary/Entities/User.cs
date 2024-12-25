@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace BaseLibrary.Entities
 {
@@ -12,6 +8,7 @@ namespace BaseLibrary.Entities
         public string Name { get; set; }
         public string Email { get; set; }
         public string Role { get; set; } // Admin or Member
+        public string PasswordHash { get; set; } // Encrypted password
         public ICollection<Borrow> Borrows { get; set; } // Navigation property
     }
 }

@@ -1,9 +1,7 @@
 ﻿using BaseLibrary.DTOs;
-using BaseLibrary.Entities;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ServerLibrary.Services.Contracts;
-using ServerLibrary.Services.Implementations;
 
 namespace Server.Controllers
 {
@@ -25,7 +23,6 @@ namespace Server.Controllers
             return Ok(response);
         }
 
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBook(int id)
         {
@@ -36,47 +33,64 @@ namespace Server.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateBook(CreateBookDto createBookDto)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> CreateBook(CreateBookDTO createBookDto)
         {
-            var book = new Book
-            {
-                Title = createBookDto.Title,
-                Author = createBookDto.Author,
-                Price = createBookDto.Price,
-                PublishedDate = createBookDto.PublishedDate,
-                Genre = createBookDto.Genre
-            };
-
-            var createdBook = await _repository.AddBookAsync(book);
+            var createdBook = await _repository.AddBookAsync(createBookDto);
             return CreatedAtAction(nameof(GetBook), new { id = createdBook.Id }, createdBook);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateBook(int id, BookDto bookDto)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> UpdateBook(int id, UpdateBookDTO updateBookDto)
         {
-            var book = new Book
-            {
-                Id = id,
-                Title = bookDto.Title,
-                Author = bookDto.Author,
-                Price = bookDto.Price,
-                PublishedDate = bookDto.PublishedDate,
-                Genre = bookDto.Genre
-            };
-
-            var updatedBook = await _repository.UpdateBookAsync(id, book);
+            var updatedBook = await _repository.UpdateBookAsync(id, updateBookDto);
             if (updatedBook == null) return NotFound();
 
             return Ok(updatedBook);
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteBook(int id)
         {
             var result = await _repository.DeleteBookAsync(id);
             if (!result) return NotFound();
 
             return NoContent();
+        }
+
+        [HttpPost("borrow")]
+        public async Task<IActionResult> BorrowBook(BorrowRequestDTO request)
+        {
+            var borrow = await _repository.BorrowBookAsync(request);
+            if (borrow == null) return BadRequest("Unable to borrow book. Ensure the book and user exist and are eligible.");
+
+            return Ok(borrow);
+        }
+
+        [HttpPost("return")]
+        public async Task<IActionResult> ReturnBook([FromQuery] int bookId, [FromQuery] int userId)
+        {
+            var result = await _repository.ReturnBookAsync(bookId, userId);
+            if (!result) return BadRequest("Unable to return book. Ensure the book and user exist, and the book was borrowed by this user.");
+
+            return Ok("Book returned successfully.");
+        }
+
+        [HttpGet("borrowed/{userId}")]
+        public async Task<IActionResult> GetBorrowedBooks(int userId)
+        {
+            var borrows = await _repository.GetBorrowedBooksAsync(userId);
+            return Ok(borrows);
+        }
+
+        [HttpGet("borrowed")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllBorrowedBooks()
+        {
+            var borrows = await _repository.GetAllBorrowedBooksAsync();
+            return Ok(borrows);
         }
     }
 }
