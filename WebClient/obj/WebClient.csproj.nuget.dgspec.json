@@ -279,9 +279,6 @@
               "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\BaseLibrary.csproj": {
                 "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\BaseLibrary.csproj"
               },
-              "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\ServerLibrary.csproj": {
-                "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\ServerLibrary.csproj"
-              },
               "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Server.csproj": {
                 "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Server.csproj"
               }
@@ -302,6 +299,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

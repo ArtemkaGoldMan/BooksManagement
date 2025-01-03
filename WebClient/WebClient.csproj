@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
-    <ProjectReference Include="..\ServerLibrary\ServerLibrary.csproj" />
     <ProjectReference Include="..\Server\Server.csproj" />
   </ItemGroup>
 
