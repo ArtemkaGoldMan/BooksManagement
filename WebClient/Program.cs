@@ -1,4 +1,8 @@
+using Blazored.LocalStorage;
 using WebClient.Components;
+using WebClient.Services;
+using Microsoft.AspNetCore.Components.Authorization;
+using WebClient.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,12 +12,19 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddLogging();
 
+builder.Services.AddScoped<UserService>();
+builder.Services.AddBlazoredLocalStorage();
 
 // Register HttpClient for API communication
 builder.Services.AddScoped(sp => new HttpClient
 {
     BaseAddress = new Uri("https://localhost:7152/")
 });
+
+// Register the custom authentication state provider
+builder.Services.AddScoped<TokenAuthenticationStateProvider>();
+builder.Services.AddScoped<AuthenticationStateProvider>(provider => provider.GetRequiredService<TokenAuthenticationStateProvider>());
+builder.Services.AddAuthorizationCore();
 
 builder.Services.AddCors(options =>
 {

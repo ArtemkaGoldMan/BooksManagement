@@ -1,0 +1,32 @@
+﻿@inject Services.UserService UserService
+@page "/register"
+@using BaseLibrary.DTOs
+
+<h3>Register</h3>
+<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="name" @bind-Value="registerModel.Name" placeholder="Name" />
+    <InputText id="email" @bind-Value="registerModel.Email" placeholder="Email" />
+    <InputText id="password" @bind-Value="registerModel.Password" placeholder="Password" />
+    <InputText id="confirmPassword" @bind-Value="registerModel.ConfirmPassword" placeholder="Confirm Password" />
+    <button type="submit">Register</button>
+</EditForm>
+
+@code {
+    private RegisterUserDTO registerModel = new();
+
+    private async Task HandleRegister()
+    {
+        var success = await UserService.RegisterAsync(registerModel);
+        if (success)
+        {
+            // Navigate to login page
+        }
+        else
+        {
+            // Show error
+        }
+    }
+}

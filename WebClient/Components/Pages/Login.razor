@@ -1,0 +1,55 @@
+﻿@using BaseLibrary.DTOs
+@using WebClient.Helpers
+@using WebClient.Services
+@inject TokenAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+@inject UserService UserService
+
+<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="loginModel.Email" />
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="loginModel.Password" type="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@code {
+    private LoginUserDTO loginModel = new();
+    private string? errorMessage;
+
+    private async Task HandleLogin()
+    {
+        errorMessage = null;
+
+        try
+        {
+            var token = await UserService.LoginAsync(loginModel);
+            if (string.IsNullOrEmpty(token))
+            {
+                errorMessage = "Invalid email or password.";
+                return;
+            }
+
+            // Mark user as logged in
+            await AuthStateProvider.MarkUserAsLoggedIn(token);
+            Navigation.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+
+}
