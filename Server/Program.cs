@@ -42,6 +42,17 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowBlazorClient", policy =>
+    {
+        policy.WithOrigins("https://localhost:7067") // Replace with your Blazor WebAssembly URL
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // Add controllers
 builder.Services.AddControllers();
 
@@ -95,6 +106,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Use CORS
+app.UseCors("AllowBlazorClient");
 
 // Add authentication and authorization middleware
 app.UseAuthentication();

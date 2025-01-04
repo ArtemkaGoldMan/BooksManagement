@@ -1,0 +1,89 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@inject WebClientBlazor.Helpers.TokenAuthenticationStateProvider AuthStateProvider
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Components.Authorization
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <AuthorizeView>
+                <Authorized>
+                    <span>Welcome, @context.User.Identity.Name!</span>
+                    <button class="btn btn-danger logout-button" @onclick="Logout">Logout</button>
+                </Authorized>
+                <NotAuthorized>
+                    <a class="btn btn-primary login-button" href="/login">Login</a>
+                    <a class="btn btn-secondary register-button" href="/register">Register</a>
+                </NotAuthorized>
+            </AuthorizeView>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<style>
+    .login-button {
+        color: white;
+        background-color: #7209b7;
+        border: 1px solid #7209b7;
+        text-decoration: none;
+    }
+
+        .login-button:hover,
+        .login-button:focus {
+            color: white;
+            background-color: #7209b7;
+            border: 1px solid #7209b7;
+            text-decoration: none;
+        }
+
+    .register-button {
+        color: white;
+        background-color: #480ca8;
+        border: 1px solid #480ca8;
+        text-decoration: none;
+    }
+
+        .register-button:hover,
+        .register-button:focus {
+            color: white;
+            background-color: #480ca8;
+            border: 1px solid #480ca8;
+            text-decoration: none;
+        }
+
+    .logout-button {
+        color: white;
+        background-color: #dc3545;
+        border: 1px solid #dc3545;
+        text-decoration: none;
+    }
+
+        .logout-button:hover,
+        .logout-button:focus {
+            color: white;
+            background-color: #c82333;
+            border: 1px solid #c82333;
+            text-decoration: none;
+        }
+</style>
+
+@code {
+    private async Task Logout()
+    {
+        // Perform logout using the AuthStateProvider
+        await AuthStateProvider.Logout();
+
+        // Redirect the user to the homepage or login page
+        Navigation.NavigateTo("/login", true);
+    }
+}
