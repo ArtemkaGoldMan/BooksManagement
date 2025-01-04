@@ -3,39 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\webclientblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\webclientblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\pages\\booksuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\booksuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\helpers\\tokenauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,72 +19,52 @@
       "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\pages\\booksadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\booksadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\server\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\serverlibrary\\services\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\services\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\serverlibrary\\services\\contracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\services\\contracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\serverlibrary\\services\\implementations\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8578F4D1-C660-4E2F-ABF9-382D44FAC990}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\services\\implementations\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\borrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\borrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\webclientblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\entities\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\response\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\response\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\baselibrary\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -125,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,168 +82,172 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebClientBlazor\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebClientBlazor\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-04T13:37:10.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\App.razor",
-              "RelativeDocumentMoniker": "WebClientBlazor\\App.razor",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\App.razor",
-              "RelativeToolTip": "WebClientBlazor\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T13:32:58.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WebClientBlazor\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "WebClientBlazor\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T13:30:56.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\Login.razor",
-              "RelativeToolTip": "WebClientBlazor\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T13:26:57.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WebClientBlazor",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\WebClientBlazor.csproj",
-              "RelativeDocumentMoniker": "WebClientBlazor\\WebClientBlazor.csproj",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\WebClientBlazor.csproj",
-              "RelativeToolTip": "WebClientBlazor\\WebClientBlazor.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-04T13:24:40.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "WebClientBlazor\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Services\\UserService.cs",
-              "RelativeToolTip": "WebClientBlazor\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:21:32.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T19:43:00.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
-              "ViewState": "AgIAANwBAAAAAAAAAAAewOoBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-04T13:24:04.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TokenAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
-              "RelativeToolTip": "WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:18:40.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Program.cs",
-              "RelativeDocumentMoniker": "WebClientBlazor\\Program.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Program.cs",
-              "RelativeToolTip": "WebClientBlazor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:15:38.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Server\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAIBJwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:54:31.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\LoginUserDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\LoginUserDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\LoginUserDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\LoginUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:35:38.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Services\\Implementations\\UserService.cs",
               "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Implementations\\UserService.cs",
               "RelativeToolTip": "ServerLibrary\\Services\\Implementations\\UserService.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwE0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:45:21.916Z"
+              "WhenOpened": "2025-01-04T21:20:35.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Server\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T21:20:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenAuthenticationStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
+              "RelativeToolTip": "WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T21:12:52.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksUser.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\BooksUser.razor",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\BooksUser.razor",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\BooksUser.razor",
+              "RelativeToolTip": "WebClientBlazor\\Pages\\BooksUser.razor",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwHEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T20:48:32.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksAdmin.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "RelativeToolTip": "WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T20:46:18.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Server\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA0wD4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:35:36.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Pages\\Login.razor",
+              "RelativeToolTip": "WebClientBlazor\\Pages\\Login.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T21:06:18.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Implementations\\BookRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Services\\Implementations\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Implementations\\BookRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Services\\Implementations\\BookRepository.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAA2wLUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:39:12.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Services\\BookService.cs",
+              "RelativeToolTip": "WebClientBlazor\\Services\\BookService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA2wDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:37:20.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Services\\UserService.cs",
+              "RelativeToolTip": "WebClientBlazor\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:36:12.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "WebClientBlazor\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T20:50:01.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\Program.cs",
+              "RelativeToolTip": "WebClientBlazor\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:45:48.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\UpdateBookDTO.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
+              "RelativeToolTip": "BaseLibrary\\DTOs\\UpdateBookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:41:04.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -304,189 +257,36 @@
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\CreateBookDTO.cs",
               "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\CreateBookDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\CreateBookDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:30:16.126Z"
+              "WhenOpened": "2025-01-04T20:40:53.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "RegisterUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\RegisterUserDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\RegisterUserDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\RegisterUserDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\RegisterUserDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:35:08.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\Entities\\User.cs",
-              "RelativeToolTip": "BaseLibrary\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:58:19.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Server\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwFMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:40:51.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Contracts\\IUserService.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Services\\Contracts\\IUserService.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Contracts\\IUserService.cs",
-              "RelativeToolTip": "ServerLibrary\\Services\\Contracts\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:38:53.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\appsettings.json",
-              "RelativeDocumentMoniker": "Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\Server\\appsettings.json",
-              "RelativeToolTip": "Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T12:46:54.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:30:48.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Contracts\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Services\\Contracts\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Contracts\\IBookRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Services\\Contracts\\IBookRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:32:13.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BookDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\BookDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:30:00.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "BorrowRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
               "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:36:24.193Z"
+              "WhenOpened": "2025-01-04T20:40:16.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BorrowDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BorrowDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BorrowDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BorrowDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\BorrowDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "BaseLibrary\\DTOs\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:36:03.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Implementations\\BookRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Services\\Implementations\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\ServerLibrary\\Services\\Implementations\\BookRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Services\\Implementations\\BookRepository.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAYwNQAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T16:36:58.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:34:46.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateBookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\UpdateBookDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\UpdateBookDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:34:10.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Borrow.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\Entities\\Borrow.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\Borrow.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\Entities\\Borrow.cs",
-              "RelativeToolTip": "BaseLibrary\\Entities\\Borrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:22:03.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PagedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\Response\\PagedResponse.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Response\\PagedResponse.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\Response\\PagedResponse.cs",
-              "RelativeToolTip": "BaseLibrary\\Response\\PagedResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:37:42.396Z"
+              "WhenOpened": "2025-01-04T20:39:58.658Z",
+              "EditorCaption": ""
             }
           ]
         }

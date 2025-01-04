@@ -26,12 +26,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/BooksAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NBZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/BooksUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/_Imports.razor]

@@ -57,11 +57,28 @@ namespace WebClientBlazor.Helpers
             NotifyAuthenticationStateChanged(Task.FromResult(anonymousUser));
         }
 
+        public async Task<int?> GetLoggedInUserIdAsync()
+        {
+            // Get the token from local storage
+            var token = await _localStorage.GetItemAsync<string>("token");
+
+            if (string.IsNullOrEmpty(token))
+            {
+                return null; // User is not logged in
+            }
+
+            var claims = ParseClaimsFromJwt(token);
+            var userIdClaim = claims.FirstOrDefault(c => c.Type == "UserId");
+
+            return userIdClaim != null ? int.Parse(userIdClaim.Value) : null;
+        }
+
         private IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
         {
             var payload = jwt.Split('.')[1];
             var jsonBytes = Convert.FromBase64String(Base64UrlDecode(payload));
             var keyValuePairs = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonBytes);
+
             return keyValuePairs.Select(kvp => new Claim(kvp.Key, kvp.Value.ToString()));
         }
 

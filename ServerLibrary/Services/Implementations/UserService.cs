@@ -75,6 +75,7 @@ namespace ServerLibrary.Services.Implementations
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim("UserId", user.Id.ToString()), // Add UserId claim
                 new Claim(ClaimTypes.Role, user.Role),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };

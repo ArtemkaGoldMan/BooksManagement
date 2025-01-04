@@ -1,0 +1,260 @@
+﻿@inject BookService BookService
+@inject NavigationManager Navigation
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+@inject UserService UserService
+@inject TokenAuthenticationStateProvider AuthStateProvider
+@using WebClientBlazor.Helpers
+@using BaseLibrary.Entities
+@using BaseLibrary.DTOs
+@using BaseLibrary.Response
+@using Microsoft.AspNetCore.Components.Authorization
+@using WebClientBlazor.Services
+@page "/booksUser"
+
+<h3>Books</h3>
+
+<div class="mb-3">
+    <button class="btn btn-primary me-2" @onclick="ShowAllBooks">Show All Books</button>
+    <button class="btn btn-info me-2" @onclick="ShowBorrowedBooks">Show Borrowed Books</button>
+    <input type="text" class="form-control d-inline w-auto" @bind="SearchTerm" placeholder="Search..." />
+    <button class="btn btn-secondary" @onclick="LoadBooks">Search</button>
+    <button class="btn btn-outline-secondary" @onclick="ClearSearch">Clear</button>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th @onclick="@(() => Sort("Title"))" style="cursor: pointer;">Title</th>
+            <th @onclick="@(() => Sort("Author"))" style="cursor: pointer;">Author</th>
+            <th @onclick="@(() => Sort("Genre"))" style="cursor: pointer;">Genre</th>
+            <th @onclick="@(() => Sort("Price"))" style="cursor: pointer;">Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Books.Any())
+        {
+            @foreach (var book in Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Genre</td>
+                    <td>@book.Price</td>
+                    <td>
+                        @if (BorrowedBooks.Any(b => b.BookId == book.Id && b.ReturnDate == null))
+                        {
+                            <button class="btn btn-success me-2" @onclick="() => ReturnBook(book.Id)">Return</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-primary me-2" @onclick="() => BorrowBook(book.Id)">Borrow</button>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No books found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <button class="btn btn-secondary" @onclick="PreviousPage" disabled="@IsFirstPage">Previous</button>
+    <span>Page @CurrentPage of @TotalPages</span>
+    <button class="btn btn-secondary" @onclick="NextPage" disabled="@IsLastPage">Next</button>
+</div>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <div class="alert alert-info mt-3">@Message</div>
+}
+
+@code {
+    private List<BookDTO> Books = new();
+    private List<BorrowDTO> BorrowedBooks = new();
+    private string SortColumn = "Title";
+    private bool Ascending = true;
+    private int CurrentPage = 1;
+    private int PageSize = 10;
+    private int TotalPages;
+    private string SearchTerm = "";
+    private string? Message;
+    private bool ShowOnlyBorrowed = false;
+    private int LoggedInUserId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await SetLoggedInUserId();
+        await LoadBooks();
+        await LoadBorrowedBooks();
+    }
+
+    private async Task SetLoggedInUserId()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity?.IsAuthenticated ?? false)
+        {
+            var userIdClaim = user.FindFirst("UserId"); // Assumes the UserId is stored in a claim
+            if (userIdClaim != null)
+            {
+                LoggedInUserId = int.Parse(userIdClaim.Value);
+            }
+        }
+    }
+
+    private async Task LoadBooks()
+    {
+        try
+        {
+            if (ShowOnlyBorrowed)
+            {
+                // Filter books that are borrowed by the logged-in user
+                Books = BorrowedBooks
+                    .Where(b => b.UserId == LoggedInUserId)
+                    .Select(b => new BookDTO
+                        {
+                            Id = b.BookId,
+                            Title = b.BookTitle,
+                            Author = b.UserName,
+                            Genre = "Borrowed",
+                            Price = 0 // Price can be omitted for borrowed books
+                        }).ToList();
+                TotalPages = 1;
+            }
+            else
+            {
+                var response = await BookService.GetBooksAsync(SearchTerm, SortColumn, Ascending, CurrentPage, PageSize);
+                if (response != null)
+                {
+                    Books = response.Items;
+                    TotalPages = (int)Math.Ceiling((double)response.FilteredCount / PageSize);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading books: {ex.Message}");
+        }
+    }
+
+    private async Task LoadBorrowedBooks()
+    {
+        try
+        {
+            BorrowedBooks = await BookService.GetBorrowedBooksByUserAsync(LoggedInUserId) ?? new List<BorrowDTO>();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading borrowed books: {ex.Message}");
+        }
+    }
+
+    private async Task ShowAllBooks()
+    {
+        ShowOnlyBorrowed = false;
+        await LoadBooks();
+    }
+
+    private async Task ShowBorrowedBooks()
+    {
+        ShowOnlyBorrowed = true;
+        await LoadBooks();
+    }
+
+    private async Task Sort(string column)
+    {
+        if (SortColumn == column)
+        {
+            Ascending = !Ascending;
+        }
+        else
+        {
+            SortColumn = column;
+            Ascending = true;
+        }
+        await LoadBooks();
+    }
+
+    private async Task NextPage()
+    {
+        if (CurrentPage < TotalPages)
+        {
+            CurrentPage++;
+            await LoadBooks();
+        }
+    }
+
+    private async Task PreviousPage()
+    {
+        if (CurrentPage > 1)
+        {
+            CurrentPage--;
+            await LoadBooks();
+        }
+    }
+
+    private bool IsFirstPage => CurrentPage == 1;
+    private bool IsLastPage => CurrentPage >= TotalPages;
+
+    private async Task ClearSearch()
+    {
+        SearchTerm = string.Empty;
+        await LoadBooks();
+    }
+
+    private async Task BorrowBook(int bookId)
+    {
+        try
+        {
+            var borrowRequest = new BorrowRequestDTO
+                {
+                    BookId = bookId,
+                    UserId = LoggedInUserId
+                };
+
+            var success = await BookService.BorrowBookAsync(borrowRequest);
+            if (success)
+            {
+                Message = "Book borrowed successfully!";
+                await LoadBorrowedBooks();
+            }
+            else
+            {
+                Message = "Failed to borrow the book.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error borrowing book: {ex.Message}";
+        }
+    }
+
+    private async Task ReturnBook(int bookId)
+    {
+        try
+        {
+            var success = await BookService.ReturnBookAsync(bookId, LoggedInUserId);
+            if (success)
+            {
+                Message = "Book returned successfully!";
+                await LoadBorrowedBooks();
+            }
+            else
+            {
+                Message = "Failed to return the book.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error returning book: {ex.Message}";
+        }
+    }
+}

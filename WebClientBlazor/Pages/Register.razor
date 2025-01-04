@@ -1,0 +1,72 @@
+﻿@inject Services.UserService UserService
+@inject NavigationManager Navigation
+@page "/register"
+@using BaseLibrary.DTOs
+
+<h3>Register</h3>
+<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="name">Name:</label>
+        <InputText id="name" @bind-Value="registerModel.Name" placeholder="Name" />
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="registerModel.Email" placeholder="Email" />
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="registerModel.Password" type="password" placeholder="Password" />
+    </div>
+    <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <InputText id="confirmPassword" @bind-Value="registerModel.ConfirmPassword" type="password" placeholder="Confirm Password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@if (successMessage != null)
+{
+    <div class="alert alert-success">@successMessage</div>
+}
+
+@code {
+    private RegisterUserDTO registerModel = new();
+    private string? errorMessage;
+    private string? successMessage;
+
+    private async Task HandleRegister()
+    {
+        errorMessage = null;
+        successMessage = null;
+
+        try
+        {
+            // Call the registration API
+            var success = await UserService.RegisterAsync(registerModel);
+            if (success)
+            {
+                // Show success message
+                successMessage = "Registration successful! Redirecting to login...";
+                // Redirect to login page after 3 seconds
+                await Task.Delay(3000);
+                Navigation.NavigateTo("/login");
+            }
+            else
+            {
+                errorMessage = "Registration failed. Please try again.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+}

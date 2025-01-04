@@ -29,5 +29,6 @@ builder.Services.AddAuthorizationCore();
 
 // Add your UserService
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<BookService>();
 
 await builder.Build().RunAsync();
