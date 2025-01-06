@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\BaseLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\BaseLibrary.csproj",
       "projectName": "BaseLibrary",
-      "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\BaseLibrary.csproj",
+      "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\BaseLibrary.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BaseLibrary\\obj\\",
+      "outputPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

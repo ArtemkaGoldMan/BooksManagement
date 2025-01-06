@@ -61,15 +61,22 @@ namespace Server.Controllers
         }
 
         [HttpPost("borrow")]
+        [Authorize]
         public async Task<IActionResult> BorrowBook(BorrowRequestDTO request)
         {
             var borrow = await _repository.BorrowBookAsync(request);
-            if (borrow == null) return BadRequest("Unable to borrow book. Ensure the book and user exist and are eligible.");
+            if (borrow == null)
+            {
+                // Return a 400 Bad Request with an appropriate error message
+                return BadRequest("This book is already borrowed by another user.");
+            }
 
             return Ok(borrow);
         }
 
+
         [HttpPost("return")]
+        [Authorize]
         public async Task<IActionResult> ReturnBook([FromQuery] int bookId, [FromQuery] int userId)
         {
             var result = await _repository.ReturnBookAsync(bookId, userId);
@@ -79,6 +86,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("borrowed/{userId}")]
+        [Authorize]
         public async Task<IActionResult> GetBorrowedBooks(int userId)
         {
             var borrows = await _repository.GetBorrowedBooksAsync(userId);
@@ -86,11 +94,20 @@ namespace Server.Controllers
         }
 
         [HttpGet("borrowed")]
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         public async Task<IActionResult> GetAllBorrowedBooks()
         {
             var borrows = await _repository.GetAllBorrowedBooksAsync();
             return Ok(borrows);
         }
+
+        [HttpGet("history")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetBorrowHistory()
+        {
+            var history = await _repository.GetBorrowHistoryAsync();
+            return Ok(history);
+        }
+
     }
 }

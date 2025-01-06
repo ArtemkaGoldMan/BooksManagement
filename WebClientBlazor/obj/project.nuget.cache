@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6R4g8L5JssE=",
+  "dgSpecHash": "fke9Dg1tdmU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\WebClientBlazor\\WebClientBlazor.csproj",
+  "projectFilePath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\WebClientBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",

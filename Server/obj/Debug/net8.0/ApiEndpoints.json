@@ -148,6 +148,16 @@
   },
   {
     "ContainingType": "Server.Controllers.BooksController",
+    "Method": "GetBorrowHistory",
+    "RelativePath": "api/Books/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.BooksController",
     "Method": "ReturnBook",
     "RelativePath": "api/Books/return",
     "HttpMethod": "POST",

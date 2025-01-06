@@ -92,5 +92,24 @@ namespace WebClientBlazor.Helpers
             }
             return input;
         }
+
+        public async Task<bool> IsTokenValidAsync()
+        {
+            var token = await _localStorage.GetItemAsync<string>("token");
+
+            if (string.IsNullOrEmpty(token)) return false;
+
+            var claims = ParseClaimsFromJwt(token);
+            var expiryClaim = claims.FirstOrDefault(c => c.Type == "exp")?.Value;
+
+            if (expiryClaim != null)
+            {
+                var expiryDate = DateTimeOffset.FromUnixTimeSeconds(long.Parse(expiryClaim)).UtcDateTime;
+                return expiryDate > DateTime.UtcNow;
+            }
+
+            return false;
+        }
+
     }
 }

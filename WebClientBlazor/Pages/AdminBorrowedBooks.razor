@@ -1,0 +1,97 @@
+﻿@inject BookService BookService
+@inject NavigationManager Navigation
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+@using WebClientBlazor.Helpers
+@using BaseLibrary.Entities
+@using BaseLibrary.DTOs
+@using BaseLibrary.Response
+@using Microsoft.AspNetCore.Components.Authorization
+@using WebClientBlazor.Services
+@page "/adminBorrowedBooks"
+
+<h3>Borrowed Books History</h3>
+
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="LoadAllHistory">All Borrowed Books</button>
+    <button class="btn btn-warning" @onclick="LoadNotReturnedBooks">Not Returned Books</button>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Borrow ID</th>
+            <th>Book Title</th>
+            <th>User Name</th>
+            <th>Borrow Date</th>
+            <th>Return Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (BorrowHistory.Any())
+        {
+            @foreach (var record in BorrowHistory)
+            {
+                <tr>
+                    <td>@record.BorrowId</td>
+                    <td>@record.BookTitle</td>
+                    <td>@record.UserName</td>
+                    <td>@record.BorrowDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@(record.ReturnDate.HasValue ? record.ReturnDate.Value.ToString("yyyy-MM-dd HH:mm:ss") : "Not Returned")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No data available</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <div class="alert alert-info mt-3">@Message</div>
+}
+
+@code {
+    private List<BorrowHistoryDTO> BorrowHistory = new();
+    private string? Message;
+
+    // Load all borrowed books
+    private async Task LoadAllHistory()
+    {
+        try
+        {
+            BorrowHistory = await BookService.GetBorrowHistoryAsync();
+            Message = null;
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error loading history: {ex.Message}";
+        }
+    }
+
+    // Load only not returned books
+    private async Task LoadNotReturnedBooks()
+    {
+        try
+        {
+            BorrowHistory = (await BookService.GetBorrowHistoryAsync())
+                .Where(b => b.ReturnDate == null)
+                .ToList();
+            Message = null;
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error loading not returned books: {ex.Message}";
+        }
+    }
+
+    // Initialize by loading all history
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadAllHistory();
+    }
+}

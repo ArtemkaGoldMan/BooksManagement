@@ -155,6 +155,16 @@ namespace ServerLibrary.Services.Implementations
 
         public async Task<BorrowDTO?> BorrowBookAsync(BorrowRequestDTO request)
         {
+            // Check if the book is already borrowed by another user and not returned
+            var existingBorrow = await _context.Borrows
+                .FirstOrDefaultAsync(b => b.BookId == request.BookId && b.ReturnDate == null);
+
+            if (existingBorrow != null)
+            {
+                // Return null if the book is already borrowed
+                return null;
+            }
+
             var book = await _context.Books.FindAsync(request.BookId);
             if (book == null) return null;
 
@@ -176,10 +186,12 @@ namespace ServerLibrary.Services.Implementations
                 BookId = borrow.BookId,
                 BookTitle = book.Title,
                 UserName = user.Name,
+                UserId = user.Id,
                 BorrowDate = borrow.BorrowDate,
                 ReturnDate = null
             };
         }
+
 
         public async Task<bool> ReturnBookAsync(int bookId, int userId)
         {
@@ -204,6 +216,7 @@ namespace ServerLibrary.Services.Implementations
                     BookId = b.BookId,
                     BookTitle = b.Book.Title,
                     UserName = b.User.Name,
+                    UserId = b.UserId,
                     BorrowDate = b.BorrowDate,
                     ReturnDate = b.ReturnDate
                 })
@@ -221,11 +234,31 @@ namespace ServerLibrary.Services.Implementations
                     BookId = b.BookId,
                     BookTitle = b.Book.Title,
                     UserName = b.User.Name,
+                    UserId = b.UserId,
                     BorrowDate = b.BorrowDate,
                     ReturnDate = b.ReturnDate
                 })
                 .ToListAsync();
         }
+
+        public async Task<List<BorrowHistoryDTO>> GetBorrowHistoryAsync()
+        {
+            return await _context.Borrows
+                .Include(b => b.Book)
+                .Include(b => b.User)
+                .Select(b => new BorrowHistoryDTO
+                {
+                     BorrowId = b.Id,
+                    BookId = b.BookId,
+                    BookTitle = b.Book.Title,
+                    UserId = b.UserId,
+                    UserName = b.User.Name,
+                    BorrowDate = b.BorrowDate,
+                    ReturnDate = b.ReturnDate
+                })
+                .ToListAsync();
+        }
+
     }
 }
 

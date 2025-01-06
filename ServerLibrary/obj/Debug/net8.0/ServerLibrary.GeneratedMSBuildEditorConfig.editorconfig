@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServerLibrary
-build_property.ProjectDir = C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\ServerLibrary\
+build_property.ProjectDir = C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BooksManagement\ServerLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

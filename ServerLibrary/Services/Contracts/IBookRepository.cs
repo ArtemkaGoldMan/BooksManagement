@@ -24,5 +24,7 @@ namespace ServerLibrary.Services.Contracts
         Task<List<BorrowDTO>> GetBorrowedBooksAsync(int userId);
         Task<List<BorrowDTO>> GetAllBorrowedBooksAsync(); // For admin view
 
+        Task<List<BorrowHistoryDTO>> GetBorrowHistoryAsync();
+
     }
 }

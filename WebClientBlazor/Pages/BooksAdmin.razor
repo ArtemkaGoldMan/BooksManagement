@@ -3,6 +3,8 @@
 @inject IJSRuntime JSRuntime
 @using BaseLibrary.Entities
 @using BaseLibrary.Response
+@inject TokenAuthenticationStateProvider AuthStateProvider
+@using WebClientBlazor.Helpers
 
 @page "/booksAdmin"
 
@@ -138,6 +140,14 @@
 
     protected override async Task OnInitializedAsync()
     {
+        if (!await AuthStateProvider.IsTokenValidAsync())
+        {
+            Console.WriteLine("Token is expired. Logging out.");
+            await AuthStateProvider.Logout();
+            Navigation.NavigateTo("/login");
+            return;
+        }
+
         await LoadBooks();
     }
 

@@ -13,47 +13,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = WebClientBlazor
 build_property.RootNamespace = WebClientBlazor
-build_property.ProjectDir = C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClientBlazor\
+build_property.ProjectDir = C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BooksManagement\WebClientBlazor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\WebClientBlazor
+build_property.MSBuildProjectDirectory = C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BooksManagement\WebClientBlazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/App.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/BooksAdmin.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Pages/AdminBorrowedBooks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Cb3Jyb3dlZEJvb2tzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Pages/BooksAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NBZG1pbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/BooksUser.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Pages/BooksUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/Home.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/Login.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Pages/Register.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/_Imports.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Layout/MainLayout.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jmo8dn2rd9
 
-[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/WebClientBlazor/Layout/NavMenu.razor]
+[C:/Users/artem/University/Proj_Desktop_Les/lab_6/BookManagement/BooksManagement/WebClientBlazor/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r8cciz90ok
