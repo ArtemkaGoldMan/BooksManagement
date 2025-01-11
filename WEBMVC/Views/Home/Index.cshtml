@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.Identity?.IsAuthenticated ?? false)
+{
+    <h2>Welcome, @User.Identity.Name!</h2>
+    <a class="btn btn-primary" asp-controller="Account" asp-action="Logout">Logout</a>
+}
+else
+{
+    <h2>Welcome to the Book Management System</h2>
+    <a class="btn btn-primary" asp-controller="Account" asp-action="Login">Login</a>
+    <a class="btn btn-secondary" asp-controller="Account" asp-action="Register">Register</a>
+}
