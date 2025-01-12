@@ -4940,23 +4940,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\artem\\.nuget\\packages\\": {},
+    "C:\\Users\\Marta Stankevich\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Server.csproj",
+      "projectUniqueName": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\obj\\",
+      "projectPath": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\Marta Stankevich\\.nuget\\packages\\",
+      "outputPath": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marta Stankevich\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4972,11 +4972,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\BaseLibrary.csproj": {
-              "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\BaseLibrary.csproj"
+            "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\BaseLibrary.csproj": {
+              "projectPath": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\BaseLibrary.csproj"
             },
-            "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\ServerLibrary\\ServerLibrary.csproj": {
-              "projectPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\ServerLibrary\\ServerLibrary.csproj"
+            "D:\\ProgDesktopMob\\project\\BooksManagement\\ServerLibrary\\ServerLibrary.csproj": {
+              "projectPath": "D:\\ProgDesktopMob\\project\\BooksManagement\\ServerLibrary\\ServerLibrary.csproj"
             }
           }
         }
@@ -4989,8 +4989,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5034,7 +5035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

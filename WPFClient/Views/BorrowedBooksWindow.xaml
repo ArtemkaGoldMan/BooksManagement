@@ -1,0 +1,49 @@
+﻿<!-- BorrowedBooksWindow.xaml -->
+<Window x:Class="WPFClient.Views.BorrowedBooksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Borrowed Books" 
+        Height="450" 
+        Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Message Display -->
+        <TextBlock Grid.Row="0" 
+                   Text="{Binding Message}"
+                   Foreground="{Binding Message, Converter={StaticResource MessageColorConverter}}"
+                   Margin="0,0,0,10"/>
+
+        <!-- Borrowed Books DataGrid -->
+        <DataGrid Grid.Row="1"
+                  ItemsSource="{Binding BorrowedBooks}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Title" 
+                                  Binding="{Binding BookTitle}" 
+                                  Width="2*"/>
+                <DataGridTextColumn Header="Borrow Date" 
+                                  Binding="{Binding BorrowDate, StringFormat={}{0:d}}" 
+                                  Width="*"/>
+                <DataGridTextColumn Header="Return Date" 
+                                  Binding="{Binding ReturnDate, StringFormat={}{0:d}}" 
+                                  Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Back Button -->
+        <Button Grid.Row="2"
+                Content="Back to All Books"
+                Command="{Binding BackToAllBooksCommand}"
+                HorizontalAlignment="Right"
+                Width="150"
+                Margin="0,10,0,0"/>
+    </Grid>
+</Window>
