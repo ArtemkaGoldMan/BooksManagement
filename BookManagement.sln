@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebClientBlazor", "WebClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEBMVC", "WEBMVC\WEBMVC.csproj", "{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFClient", "WPFClient\WPFClient.csproj", "{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

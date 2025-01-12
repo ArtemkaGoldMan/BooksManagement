@@ -10,3 +10,15 @@ C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BaseLibrary\obj\
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
 C:\Users\artem\University\Proj_Desktop_Les\lab_6\BookManagement\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.sourcelink.json
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
+D:\ProgDesktopMob\project\BooksManagement\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll

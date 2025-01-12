@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\",
+  "WorkspaceRootPath": "D:\\ProgDesktopMob\\project\\BooksManagement\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -116,38 +117,245 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+=======
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\wpfclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\wpfclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|d:\\progdesktopmob\\project\\booksmanagement\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
       "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\bookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\bookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\bookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\bookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\registerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\borrowedbookswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\borrowedbookswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\views\\borrowedbookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\views\\borrowedbookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\viewmodels\\booksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\viewmodels\\booksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\services\\mynavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\services\\mynavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\services\\imynavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\services\\imynavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\helpers\\tokenstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\helpers\\tokenstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|d:\\progdesktopmob\\project\\booksmanagement\\wpfclient\\converters\\messagecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}|WPFClient\\WPFClient.csproj|solutionrelative:wpfclient\\converters\\messagecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\models\\booksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\models\\booksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webclientblazor\\pages\\booksuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\booksuser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webclientblazor\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\response\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\response\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|d:\\progdesktopmob\\project\\booksmanagement\\server\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webclientblazor\\pages\\adminborrowedbooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\adminborrowedbooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\borrowrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\borrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\borrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|d:\\progdesktopmob\\project\\booksmanagement\\baselibrary\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3BBDE-A91E-4673-A7B9-4C67E7886F7F}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webclientblazor\\pages\\booksadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\pages\\booksadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\helpers\\jwtvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\helpers\\jwtvalidationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|d:\\progdesktopmob\\project\\booksmanagement\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|d:\\progdesktopmob\\project\\booksmanagement\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\webmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\webmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|d:\\progdesktopmob\\project\\booksmanagement\\server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0A39EE-3CFD-48ED-967A-97929D8351E8}|Server\\Server.csproj|solutionrelative:server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\webclientblazor\\helpers\\tokenauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D3A4D98-018B-49D0-B48A-6E5D9CB64122}|WEBMVC\\WEBMVC.csproj|solutionrelative:webmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webclientblazor\\helpers\\tokenauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
       "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\helpers\\tokenauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|c:\\users\\artem\\university\\proj_desktop_les\\lab_6\\bookmanagement\\booksmanagement\\webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|d:\\progdesktopmob\\project\\booksmanagement\\webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACD76F08-817A-4760-8AE2-1A8CA2C4DC9A}|WebClientBlazor\\WebClientBlazor.csproj|solutionrelative:webclientblazor\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -158,14 +366,394 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 7,
+=======
+          "SelectedChildIndex": 4,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFClient\\MainWindow.xaml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\MainWindow.xaml",
+              "RelativeToolTip": "WPFClient\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T13:57:49.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFClient\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFClient\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:57:48.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookWindow.xaml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BookWindow.xaml",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\BookWindow.xaml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BookWindow.xaml",
+              "RelativeToolTip": "WPFClient\\Views\\BookWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T14:20:50.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookWindow.xaml.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BookWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\BookWindow.xaml.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BookWindow.xaml.cs",
+              "RelativeToolTip": "WPFClient\\Views\\BookWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:21:33.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WPFClient",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\WPFClient.csproj",
+              "RelativeDocumentMoniker": "WPFClient\\WPFClient.csproj",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\WPFClient.csproj",
+              "RelativeToolTip": "WPFClient\\WPFClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-12T13:58:30.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InverseBooleanConverter.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Converters\\InverseBooleanConverter.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Converters\\InverseBooleanConverter.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Converters\\InverseBooleanConverter.cs",
+              "RelativeToolTip": "WPFClient\\Converters\\InverseBooleanConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:02:48.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\App.xaml",
+              "RelativeDocumentMoniker": "WPFClient\\App.xaml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\App.xaml",
+              "RelativeToolTip": "WPFClient\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T14:02:02.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-11T16:17:25.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WPFClient\\AssemblyInfo.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\AssemblyInfo.cs",
+              "RelativeToolTip": "WPFClient\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:25:12.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WPFClient\\App.xaml.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\App.xaml.cs",
+              "RelativeToolTip": "WPFClient\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:24:52.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterView.xaml.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\RegisterView.xaml.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\RegisterView.xaml.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\RegisterView.xaml.cs",
+              "RelativeToolTip": "WPFClient\\Views\\RegisterView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:24:33.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\RegisterView.xaml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\RegisterView.xaml",
+              "RelativeToolTip": "WPFClient\\Views\\RegisterView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T14:24:15.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\LoginView.xaml.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "WPFClient\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:23:43.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\LoginView.xaml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\LoginView.xaml",
+              "RelativeToolTip": "WPFClient\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T14:23:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BorrowedBooksWindow.xaml.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BorrowedBooksWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\BorrowedBooksWindow.xaml.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BorrowedBooksWindow.xaml.cs",
+              "RelativeToolTip": "WPFClient\\Views\\BorrowedBooksWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:22:40.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BorrowedBooksWindow.xaml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BorrowedBooksWindow.xaml",
+              "RelativeDocumentMoniker": "WPFClient\\Views\\BorrowedBooksWindow.xaml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Views\\BorrowedBooksWindow.xaml",
+              "RelativeToolTip": "WPFClient\\Views\\BorrowedBooksWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T14:22:07.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "WPFClient\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "WPFClient\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:19:12.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WPFClient\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WPFClient\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:18:34.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BooksViewModel.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\BooksViewModel.cs",
+              "RelativeDocumentMoniker": "WPFClient\\ViewModels\\BooksViewModel.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\BooksViewModel.cs",
+              "RelativeToolTip": "WPFClient\\ViewModels\\BooksViewModel.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAADwvw0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:17:22.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "WPFClient\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "WPFClient\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:16:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyNavigationService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\MyNavigationService.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Services\\MyNavigationService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\MyNavigationService.cs",
+              "RelativeToolTip": "WPFClient\\Services\\MyNavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:13:55.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMyNavigationService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\IMyNavigationService.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Services\\IMyNavigationService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\IMyNavigationService.cs",
+              "RelativeToolTip": "WPFClient\\Services\\IMyNavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:13:16.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Services\\IBookService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\IBookService.cs",
+              "RelativeToolTip": "WPFClient\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:11:30.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Services\\BookService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\BookService.cs",
+              "RelativeToolTip": "WPFClient\\Services\\BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:10:40.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Services\\IAuthenticationService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "WPFClient\\Services\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:08:01.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Services\\AuthenticationService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "WPFClient\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAA9wAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:06:53.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenStorage.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Helpers\\TokenStorage.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Helpers\\TokenStorage.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Helpers\\TokenStorage.cs",
+              "RelativeToolTip": "WPFClient\\Helpers\\TokenStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:06:02.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Helpers\\RelayCommand.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "WPFClient\\Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:05:30.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MessageColorConverter.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Converters\\MessageColorConverter.cs",
+              "RelativeDocumentMoniker": "WPFClient\\Converters\\MessageColorConverter.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WPFClient\\Converters\\MessageColorConverter.cs",
+              "RelativeToolTip": "WPFClient\\Converters\\MessageColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T14:04:15.892Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Views\\AdminBorrowedBooks\\Index.cshtml",
@@ -186,6 +774,15 @@
               "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Controllers\\AdminBorrowedBooksController.cs",
               "RelativeToolTip": "WEBMVC\\Controllers\\AdminBorrowedBooksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 33,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Services\\BookService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Services\\BookService.cs",
+              "RelativeToolTip": "WebClientBlazor\\Services\\BookService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T14:10:17.734Z",
               "EditorCaption": ""
@@ -218,6 +815,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "BooksAdminViewModel.cs",
               "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Models\\BooksAdminViewModel.cs",
@@ -297,10 +895,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 35,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Controllers\\BooksController.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Controllers\\BooksController.cs",
               "RelativeToolTip": "Server\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAUwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,23 +910,32 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 20,
+=======
+              "DocumentIndex": 40,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BookDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\BookDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\BookDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:39:41.284Z"
+              "WhenOpened": "2025-01-11T19:39:41.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 30,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Controllers\\BooksController.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "WEBMVC\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Controllers\\BooksController.cs",
               "RelativeToolTip": "WEBMVC\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -334,11 +944,15 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
+=======
+              "DocumentIndex": 32,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BooksUser.razor",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Pages\\BooksUser.razor",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Pages\\BooksUser.razor",
               "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\BooksUser.razor",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Pages\\BooksUser.razor",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Pages\\BooksUser.razor",
               "RelativeToolTip": "WebClientBlazor\\Pages\\BooksUser.razor",
               "ViewState": "AgIAAJcAAAAAAAAAAAAcwLAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -359,6 +973,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 16,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Services\\BookService.cs",
@@ -372,10 +987,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBMVC\\Views\\Books\\Index.cshtml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "WEBMVC\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T19:38:58.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BooksViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Models\\BooksViewModel.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Models\\BooksViewModel.cs",
               "RelativeDocumentMoniker": "WEBMVC\\Models\\BooksViewModel.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Models\\BooksViewModel.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Models\\BooksViewModel.cs",
               "RelativeToolTip": "WEBMVC\\Models\\BooksViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,11 +1027,28 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 17,
+=======
+              "DocumentIndex": 37,
+              "Title": "AdminBorrowedBooks.razor",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Pages\\AdminBorrowedBooks.razor",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\AdminBorrowedBooks.razor",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Pages\\AdminBorrowedBooks.razor",
+              "RelativeToolTip": "WebClientBlazor\\Pages\\AdminBorrowedBooks.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwCAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T20:01:22.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "PagedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\Response\\PagedResponse.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\Response\\PagedResponse.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\Response\\PagedResponse.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\Response\\PagedResponse.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\Response\\PagedResponse.cs",
               "RelativeToolTip": "BaseLibrary\\Response\\PagedResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -408,102 +1056,182 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 21,
+=======
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEBMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WEBMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T13:24:17.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "UpdateBookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\UpdateBookDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\UpdateBookDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\UpdateBookDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:40:09.118Z"
+              "WhenOpened": "2025-01-11T19:40:09.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 19,
+=======
+              "DocumentIndex": 39,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BorrowDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\BorrowDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\BorrowDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BorrowDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\BorrowDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\BorrowDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\BorrowDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:39:46.273Z"
+              "WhenOpened": "2025-01-11T19:39:46.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 18,
+=======
+              "DocumentIndex": 38,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "BorrowRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\BorrowRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:39:56.32Z"
+              "WhenOpened": "2025-01-11T19:39:56.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 24,
+=======
+              "DocumentIndex": 44,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "CreateBookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\CreateBookDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\CreateBookDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\CreateBookDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\CreateBookDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\CreateBookDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\CreateBookDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T19:40:01.325Z"
+              "WhenOpened": "2025-01-11T19:40:01.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 23,
+=======
+              "DocumentIndex": 43,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "LoginUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\LoginUserDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\LoginUserDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\LoginUserDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\LoginUserDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\LoginUserDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\LoginUserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:20:38.774Z"
+              "WhenOpened": "2025-01-11T13:20:38.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 22,
+=======
+              "DocumentIndex": 42,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "RegisterUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\RegisterUserDTO.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\RegisterUserDTO.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\RegisterUserDTO.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\BaseLibrary\\DTOs\\RegisterUserDTO.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\BaseLibrary\\DTOs\\RegisterUserDTO.cs",
               "RelativeToolTip": "BaseLibrary\\DTOs\\RegisterUserDTO.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAIwBQAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:20:41.26Z"
+              "WhenOpened": "2025-01-11T13:20:41.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Program.cs",
-              "RelativeDocumentMoniker": "WEBMVC\\Program.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Program.cs",
-              "RelativeToolTip": "WEBMVC\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:11:16.48Z"
+=======
+              "DocumentIndex": 45,
+              "Title": "BooksAdmin.razor",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "RelativeDocumentMoniker": "WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "RelativeToolTip": "WebClientBlazor\\Pages\\BooksAdmin.razor",
+              "ViewState": "AgIAAP4AAAAAAAAAAADwvyQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T19:36:18.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 48,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WEBMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WEBMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwv0MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T13:21:55.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Program.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WEBMVC\\Program.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Program.cs",
+              "RelativeToolTip": "WEBMVC\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwDkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T13:11:16.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 29,
+=======
+              "DocumentIndex": 50,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Program.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAIwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T14:41:45.907Z"
+              "WhenOpened": "2025-01-11T14:41:45.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\appsettings.json",
@@ -517,110 +1245,167 @@
             {
               "$type": "Document",
               "DocumentIndex": 27,
+=======
+              "DocumentIndex": 49,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "WEBMVC\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "WEBMVC\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T13:23:00.756Z"
+              "WhenOpened": "2025-01-11T13:23:00.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 25,
+=======
+              "DocumentIndex": 46,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "JWTValidationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Helpers\\JWTValidationFilter.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Helpers\\JWTValidationFilter.cs",
               "RelativeDocumentMoniker": "WEBMVC\\Helpers\\JWTValidationFilter.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Helpers\\JWTValidationFilter.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Helpers\\JWTValidationFilter.cs",
               "RelativeToolTip": "WEBMVC\\Helpers\\JWTValidationFilter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:11:25.026Z"
+              "WhenOpened": "2025-01-11T16:11:25.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 31,
+=======
+              "DocumentIndex": 52,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\appsettings.json",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\appsettings.json",
               "RelativeDocumentMoniker": "WEBMVC\\appsettings.json",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\appsettings.json",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\appsettings.json",
               "RelativeToolTip": "WEBMVC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-11T16:19:17.933Z"
+              "WhenOpened": "2025-01-11T16:19:17.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 32,
+=======
+              "DocumentIndex": 53,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WEBMVC\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Properties\\launchSettings.json",
               "RelativeToolTip": "WEBMVC\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-11T16:38:59.229Z"
+              "WhenOpened": "2025-01-11T16:38:59.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 30,
+=======
+              "DocumentIndex": 51,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Properties\\launchSettings.json",
               "RelativeToolTip": "Server\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-11T16:41:02.512Z"
+              "WhenOpened": "2025-01-11T16:41:02.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 33,
+=======
+              "DocumentIndex": 54,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WEBMVC\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WEBMVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "WEBMVC\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-11T13:23:19.136Z"
+              "WhenOpened": "2025-01-11T13:23:19.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 34,
+=======
+              "DocumentIndex": 55,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\Server\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\Server\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Server\\Controllers\\UsersController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAiwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T15:37:30.871Z"
+              "WhenOpened": "2025-01-11T15:37:30.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 35,
+=======
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEBMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WEBMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WEBMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T13:23:50.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "TokenAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
               "RelativeToolTip": "WebClientBlazor\\Helpers\\TokenAuthenticationStateProvider.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAgwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:08:42.704Z"
+              "WhenOpened": "2025-01-11T13:08:42.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 36,
+=======
+              "DocumentIndex": 58,
+>>>>>>> d30df2aee7c7a56321463284da6d19527c8400d8
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Services\\UserService.cs",
+              "DocumentMoniker": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "WebClientBlazor\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\artem\\University\\Proj_Desktop_Les\\lab_6\\BookManagement\\BooksManagement\\WebClientBlazor\\Services\\UserService.cs",
+              "ToolTip": "D:\\ProgDesktopMob\\project\\BooksManagement\\WebClientBlazor\\Services\\UserService.cs",
               "RelativeToolTip": "WebClientBlazor\\Services\\UserService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:06:19.68Z"
+              "WhenOpened": "2025-01-11T13:06:19.68Z",
+              "EditorCaption": ""
             }
           ]
         }

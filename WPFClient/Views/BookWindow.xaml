@@ -1,0 +1,151 @@
+﻿<Window x:Class="WPFClient.Views.BooksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Books" Height="600" Width="1000">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Search and Filter Controls -->
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Search Box -->
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <TextBox Width="250" 
+                         Text="{Binding SearchTerm, UpdateSourceTrigger=PropertyChanged}"
+                         Margin="0,0,5,0">
+                    <TextBox.Style>
+                        <Style TargetType="TextBox">
+                            <Style.Resources>
+                                <VisualBrush x:Key="SearchHint" TileMode="None" Opacity="0.5" Stretch="None" AlignmentX="Left">
+                                    <VisualBrush.Visual>
+                                        <TextBlock Text="Search books..."/>
+                                    </VisualBrush.Visual>
+                                </VisualBrush>
+                            </Style.Resources>
+                            <Style.Triggers>
+                                <Trigger Property="Text" Value="{x:Null}">
+                                    <Setter Property="Background" Value="{StaticResource SearchHint}"/>
+                                </Trigger>
+                                <Trigger Property="Text" Value="">
+                                    <Setter Property="Background" Value="{StaticResource SearchHint}"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+                <Button Content="Clear" 
+                        Command="{Binding ClearSearchCommand}"
+                        Margin="5,0,0,0"/>
+            </StackPanel>
+
+            <!-- View Toggle -->
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="10,0">
+                <RadioButton Content="All Books" 
+                            IsChecked="{Binding ShowOnlyBorrowed, Converter={StaticResource InverseBooleanConverter}}"
+                            Margin="0,0,10,0"/>
+                <RadioButton Content="Borrowed Books" 
+                            IsChecked="{Binding ShowOnlyBorrowed}"/>
+            </StackPanel>
+
+            <!-- Message Display -->
+            <TextBlock Grid.Column="2" 
+                       Text="{Binding Message}" 
+                       Foreground="{Binding Message, Converter={StaticResource MessageColorConverter}}"
+                       VerticalAlignment="Center"/>
+        </Grid>
+
+        <!-- Books DataGrid -->
+        <DataGrid Grid.Row="1" 
+                  ItemsSource="{Binding Books}"
+                  SelectedItem="{Binding SelectedBook}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="2*">
+                    <DataGridTextColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <Button Content="Title" 
+                                    Command="{Binding DataContext.SortCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                    CommandParameter="Title"/>
+                        </DataTemplate>
+                    </DataGridTextColumn.HeaderTemplate>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Author" Binding="{Binding Author}" Width="*">
+                    <DataGridTextColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <Button Content="Author" 
+                                    Command="{Binding DataContext.SortCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                    CommandParameter="Author"/>
+                        </DataTemplate>
+                    </DataGridTextColumn.HeaderTemplate>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Genre" Binding="{Binding Genre}" Width="*">
+                    <DataGridTextColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <Button Content="Genre" 
+                                    Command="{Binding DataContext.SortCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                    CommandParameter="Genre"/>
+                        </DataTemplate>
+                    </DataGridTextColumn.HeaderTemplate>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}" Width="*">
+                    <DataGridTextColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <Button Content="Price" 
+                                    Command="{Binding DataContext.SortCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                    CommandParameter="Price"/>
+                        </DataTemplate>
+                    </DataGridTextColumn.HeaderTemplate>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Pagination Controls -->
+        <StackPanel Grid.Row="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,10">
+            <Button Content="Previous" 
+                    Command="{Binding PreviousPageCommand}"
+                    Width="80"
+                    Margin="0,0,10,0"/>
+            <Button Content="Next" 
+                    Command="{Binding NextPageCommand}"
+                    Width="80"/>
+        </StackPanel>
+
+        <!-- Action Buttons -->
+        <StackPanel Grid.Row="3" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button Content="Borrow" 
+                    Command="{Binding BorrowCommand}"
+                    Width="100" 
+                    Margin="5"/>
+            <Button Content="Return" 
+                    Command="{Binding ReturnCommand}"
+                    Width="100" 
+                    Margin="5"/>
+            <Button Content="Log Out" 
+                    Command="{Binding LogoutCommand}"
+                    Width="100" 
+                    Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

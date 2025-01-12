@@ -1,0 +1,23 @@
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Ignore publish output
+publish/
+app.publish/
+
+# Ignore temporary files
+*.log
+*.lock.json
