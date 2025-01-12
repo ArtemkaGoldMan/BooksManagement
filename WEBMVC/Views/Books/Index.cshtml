@@ -2,16 +2,6 @@
 
 <h3>Books</h3>
 
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
-}
-
-@if (TempData["ErrorMessage"] != null)
-{
-    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
-}
-
 <form method="get" asp-action="Index">
     <div class="mb-3">
         <input type="text" class="form-control d-inline w-auto" name="search" value="@Model.SearchTerm" placeholder="Search..." />
@@ -128,3 +118,13 @@
         <span>Showing Borrowed Books</span>
     }
 </div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}

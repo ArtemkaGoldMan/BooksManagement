@@ -1,0 +1,46 @@
+﻿@model List<BaseLibrary.DTOs.BorrowHistoryDTO>
+
+<h3>Borrowed Books History</h3>
+
+<div class="mb-3">
+    <a class="btn btn-primary" asp-action="Index" asp-route-filter="all">All Borrowed Books</a>
+    <a class="btn btn-warning" asp-action="Index" asp-route-filter="notReturned">Not Returned Books</a>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Borrow ID</th>
+            <th>Book Title</th>
+            <th>User Name</th>
+            <th>Borrow Date</th>
+            <th>Return Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            @foreach (var record in Model)
+            {
+                <tr>
+                    <td>@record.BorrowId</td>
+                    <td>@record.BookTitle</td>
+                    <td>@record.UserName</td>
+                    <td>@record.BorrowDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@(record.ReturnDate.HasValue ? record.ReturnDate.Value.ToString("yyyy-MM-dd HH:mm:ss") : "Not Returned")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No data available.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger mt-3">@TempData["ErrorMessage"]</div>
+}

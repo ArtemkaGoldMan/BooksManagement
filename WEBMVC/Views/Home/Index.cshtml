@@ -4,8 +4,8 @@
 
 @if (User.Identity?.IsAuthenticated ?? false)
 {
-    <h2>Welcome, @User.Identity.Name!</h2>
-    <a class="btn btn-primary" asp-controller="Account" asp-action="Logout">Logout</a>
+    <h2>Welcome!</h2>
+
 }
 else
 {

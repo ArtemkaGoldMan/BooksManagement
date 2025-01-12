@@ -1,0 +1,148 @@
+﻿@model WEBMVC.Models.BooksAdminViewModel
+
+<h3>Books Admin</h3>
+
+
+<form method="get" asp-action="Index" class="mb-3">
+    <div class="d-flex align-items-center">
+        <input type="text" class="form-control w-auto me-2" name="search" value="@Model.SearchTerm" placeholder="Search..." />
+        <button class="btn btn-secondary me-2">Search</button>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal" onclick="clearModalFields()">Create New Book</button>
+    </div>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Books.Any())
+        {
+            @foreach (var book in Model.Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Genre</td>
+                    <td>@book.Price</td>
+                    <td>
+                        <button class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#editModal" data-id="@book.Id" data-title="@book.Title" data-author="@book.Author" data-genre="@book.Genre" data-price="@book.Price">Edit</button>
+                        <form method="post" asp-action="Delete" class="d-inline">
+                            <input type="hidden" name="id" value="@book.Id" />
+                            <button class="btn btn-danger" type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No books found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-between">
+    <form method="get" asp-action="Index">
+        <input type="hidden" name="search" value="@Model.SearchTerm" />
+        <input type="hidden" name="sortBy" value="@Model.SortBy" />
+        <input type="hidden" name="ascending" value="@Model.Ascending" />
+        <input type="hidden" name="page" value="@(Model.CurrentPage - 1)" />
+        <button class="btn btn-secondary" @(Model.CurrentPage <= 1 ? "disabled" : null)>Previous</button>
+    </form>
+
+    <span>Page @Model.CurrentPage of @Model.TotalPages</span>
+
+    <form method="get" asp-action="Index">
+        <input type="hidden" name="search" value="@Model.SearchTerm" />
+        <input type="hidden" name="sortBy" value="@Model.SortBy" />
+        <input type="hidden" name="ascending" value="@Model.Ascending" />
+        <input type="hidden" name="page" value="@(Model.CurrentPage + 1)" />
+        <button class="btn btn-secondary" @(Model.CurrentPage >= Model.TotalPages ? "disabled" : null)>Next</button>
+    </form>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<!-- Modal for Edit/Create -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="post" asp-action="CreateOrUpdate">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Edit Book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="bookId" name="Id" />
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" class="form-control" id="title" name="Title" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="author" class="form-label">Author</label>
+                        <input type="text" class="form-control" id="author" name="Author" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="genre" class="form-label">Genre</label>
+                        <input type="text" class="form-control" id="genre" name="Genre" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="number" class="form-control" id="price" name="Price" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    const editModal = document.getElementById('editModal');
+    editModal.addEventListener('show.bs.modal', event => {
+        const button = event.relatedTarget;
+        const id = button.getAttribute('data-id');
+        const title = button.getAttribute('data-title');
+        const author = button.getAttribute('data-author');
+        const genre = button.getAttribute('data-genre');
+        const price = button.getAttribute('data-price');
+
+        document.getElementById('bookId').value = id;
+        document.getElementById('title').value = title;
+        document.getElementById('author').value = author;
+        document.getElementById('genre').value = genre;
+        document.getElementById('price').value = price;
+    });
+</script>
+
+<script>
+    function clearModalFields() {
+        document.getElementById('bookId').value = '';
+        document.getElementById('title').value = '';
+        document.getElementById('author').value = '';
+        document.getElementById('genre').value = '';
+        document.getElementById('price').value = '';
+        document.getElementById('editModalLabel').innerText = 'Create Book';
+    }
+</script>
+
