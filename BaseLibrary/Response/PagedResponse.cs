@@ -14,6 +14,8 @@ namespace BaseLibrary.Response
 
         [JsonPropertyName("totalCount")] // Matches the "totalCount" field in the API response
         public int TotalCount { get; set; }
+
+        [JsonPropertyName("filteredCount")]
         public int FilteredCount { get; set; } // Total books matching the search criteria
     }
 }

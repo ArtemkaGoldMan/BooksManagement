@@ -1,0 +1,130 @@
+﻿@model WEBMVC.Models.BooksViewModel
+
+<h3>Books</h3>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form method="get" asp-action="Index">
+    <div class="mb-3">
+        <input type="text" class="form-control d-inline w-auto" name="search" value="@Model.SearchTerm" placeholder="Search..." />
+        <button class="btn btn-secondary">Search</button>
+
+        <form method="get" asp-action="Index">
+            <input type="hidden" name="search" value="@Model.SearchTerm" />
+            <input type="hidden" name="sortBy" value="@Model.SortBy" />
+            <input type="hidden" name="ascending" value="@Model.Ascending" />
+            <input type="hidden" name="page" value="1" />
+            <input type="hidden" name="showBorrowedByUser" value="@(Model.ShowBorrowedByUser ? "false" : "true")" />
+            <button class="btn btn-info" type="submit">
+                @(Model.ShowBorrowedByUser ? "Show All Books" : "Show My Borrowed Books")
+            </button>
+        </form>
+    </div>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Borrow Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            var status = Model.AllBorrowedBooks.FirstOrDefault(b => b.BookId == book.Id && b.ReturnDate == null);
+            var userBorrow = Model.BorrowedBooks.FirstOrDefault(b => b.BookId == book.Id && b.ReturnDate == null);
+
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Genre</td>
+                <td>@book.Price</td>
+                <td>
+                    @if (status != null && status.UserId != int.Parse(User.FindFirst("UserId").Value))
+                    {
+                        <span class="text-danger">Borrowed</span>
+                    }
+                    else if (userBorrow != null)
+                    {
+                        <span class="text-warning">Borrowed by You</span>
+                    }
+                    else
+                    {
+                        <span class="text-success">Available</span>
+                    }
+                </td>
+                <td>
+                    @if (userBorrow != null)
+                    {
+                        @userBorrow.BorrowDate.ToString("yyyy-MM-dd")
+                    }
+                </td>
+                <td>
+                    @if (userBorrow != null)
+                    {
+                        <form method="post" asp-action="Return">
+                            <input type="hidden" name="bookId" value="@book.Id" />
+                            <button class="btn btn-success me-2">Return</button>
+                        </form>
+                    }
+                    else if (status != null)
+                    {
+                        <button class="btn btn-secondary me-2" disabled>Not Available</button>
+                    }
+                    else
+                    {
+                        <form method="post" asp-action="Borrow">
+                            <input type="hidden" name="bookId" value="@book.Id" />
+                            <button class="btn btn-primary me-2">Borrow</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-between">
+    @if (!Model.ShowBorrowedByUser)
+    {
+        <form method="get" asp-action="Index">
+            <input type="hidden" name="search" value="@Model.SearchTerm" />
+            <input type="hidden" name="sortBy" value="@Model.SortBy" />
+            <input type="hidden" name="ascending" value="@Model.Ascending" />
+            <input type="hidden" name="page" value="@(Model.CurrentPage - 1)" />
+            <input type="hidden" name="pageSize" value="10" />
+            <input type="hidden" name="showBorrowedByUser" value="false" />
+            <button class="btn btn-secondary" @(Model.CurrentPage <= 1 ? "disabled" : null)>Previous</button>
+        </form>
+
+        <span>Page @Model.CurrentPage of @Model.TotalPages</span>
+
+        <form method="get" asp-action="Index">
+            <input type="hidden" name="search" value="@Model.SearchTerm" />
+            <input type="hidden" name="sortBy" value="@Model.SortBy" />
+            <input type="hidden" name="ascending" value="@Model.Ascending" />
+            <input type="hidden" name="page" value="@(Model.CurrentPage + 1)" />
+            <input type="hidden" name="pageSize" value="10" />
+            <input type="hidden" name="showBorrowedByUser" value="false" />
+            <button class="btn btn-secondary" @(Model.CurrentPage >= Model.TotalPages ? "disabled" : null)>Next</button>
+        </form>
+    }
+    else
+    {
+        <span>Showing Borrowed Books</span>
+    }
+</div>
