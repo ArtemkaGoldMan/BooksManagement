@@ -305,6 +305,7 @@ public class BooksViewModel : BaseViewModel
     private async Task SetLoggedInUserId()
     {
         var claimsPrincipal = _authService.GetAuthenticationState();
+        //var userIdClaim = claimsPrincipal.FindFirst(ClaimTypes.NameIdentifier);
         var userIdClaim = claimsPrincipal.FindFirst("UserId");
         if (userIdClaim != null && int.TryParse(userIdClaim.Value, out var userId))
         {

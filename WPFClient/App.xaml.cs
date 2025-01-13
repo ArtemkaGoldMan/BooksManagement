@@ -33,7 +33,11 @@ namespace WPFClient
             services.AddTransient<LoginViewModel>();
             services.AddTransient<RegisterViewModel>();
             //services.AddTransient<BooksViewModel>();
-            services.AddScoped<BooksViewModel>();
+            services.AddTransient<BooksViewModel>();
+            //services.AddScoped<EditBookViewModel>();
+            services.AddTransient<AdminBooksViewModel>();
+            services.AddTransient<AddBookViewModel>();
+            services.AddTransient<AdminBorrowedBooksViewModel>();
 
 
 
@@ -42,6 +46,10 @@ namespace WPFClient
             services.AddTransient<RegisterView>();
             services.AddTransient<BooksWindow>();
             services.AddTransient<BorrowedBooksWindow>();
+            services.AddTransient<EditBookView>();
+            services.AddTransient<AddBookView>();
+            services.AddTransient<AdminBooksWindow>();
+            services.AddTransient<AdminBorrowedBooksWindow>();
         }
         /*protected override void OnStartup(StartupEventArgs e)
         {

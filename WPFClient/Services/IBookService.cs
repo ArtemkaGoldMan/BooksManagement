@@ -32,6 +32,14 @@ namespace WPFClient.Services
         // Return a borrowed book using its ID and user ID
         Task<bool> ReturnBookAsync(int bookId, int userId);
 
+        Task<bool> DeleteBookAsync(int id);
+
+
+        Task<bool> UpdateBookAsync(int id, UpdateBookDTO updateBookDto);
+
+
+        Task<bool> AddBookAsync(CreateBookDTO createBookDto);
+
 
         Task<List<BorrowHistoryDTO>> GetBorrowHistoryAsync();
     }

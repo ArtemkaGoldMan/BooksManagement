@@ -1,12 +1,12 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using BaseLibrary.DTOs;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-
-
+using WPFClient.ViewModels;
 namespace WPFClient.Services
 {
     public class MyNavigationService : IMyNavigationService
@@ -16,10 +16,25 @@ namespace WPFClient.Services
         {
             _serviceProvider = serviceProvider;
         }
-        public void NavigateTo<T>() where T : Window
+        public void NavigateTo<T>(object? parameter = null) where T : Window
         {
             var currentWindow = Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive);
+
+            // Get the window from the service provider
             var window = _serviceProvider.GetRequiredService<T>();
+
+            // If the window's DataContext is expecting initialization data
+            if (window.DataContext is EditBookViewModel editViewModel && parameter is BookDTO book)
+            {
+                // Create a new instance of EditBookViewModel with the selected book
+                var newViewModel = new EditBookViewModel(
+                    _serviceProvider.GetRequiredService<IBooksService>(),
+                    this,
+                    book
+                );
+                window.DataContext = newViewModel;
+            }
+
             window.Show();
             currentWindow?.Close();
         }

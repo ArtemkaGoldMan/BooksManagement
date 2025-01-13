@@ -46,25 +46,6 @@ namespace WPFClient.Services
 
 
 
-        // Get borrowed books for the user
-        /*public async Task<List<BorrowDTO>> GetBorrowedBooksAsync(int userId)
-        {
-            await SetAuthorizationHeader();
-            var response = await _httpClient.GetAsync($"Books/borrowed/{userId}");
-            if (response.IsSuccessStatusCode)
-            {
-                var borrowedBooks = await response.Content.ReadFromJsonAsync<List<BorrowDTO>>();
-                return borrowedBooks;
-            }
-            var error = await response.Content.ReadAsStringAsync();
-            Console.WriteLine($"GetBorrowedBooks failed: {error}");
-            return new List<BorrowDTO>();
-        }
-        */
-
-
-
-
         // KAK U ARTEMA
         // Get borrowed books for the user
         public async Task<List<BorrowDTO>?> GetBorrowedBooksByUserAsync(int userId)
@@ -164,7 +145,39 @@ namespace WPFClient.Services
         }
 
 
-        // Set Authorization header with the token
+
+        //KAK U ARTEMA
+        // (Admin only)
+        public async Task<bool> AddBookAsync(CreateBookDTO createBookDto)
+        {
+            await SetAuthorizationHeader();
+            var response = await _httpClient.PostAsJsonAsync("Books", createBookDto);
+            return response.IsSuccessStatusCode;
+        }
+
+
+        //KAK U ARTEMA
+        //(Admin only)
+        public async Task<bool> UpdateBookAsync(int id, UpdateBookDTO updateBookDto)
+        {
+            await SetAuthorizationHeader();
+            var response = await _httpClient.PutAsJsonAsync($"Books/{id}", updateBookDto);
+            return response.IsSuccessStatusCode;
+        }
+
+
+        //KAK U ARTEMA
+        //  (Admin only)
+        public async Task<bool> DeleteBookAsync(int id)
+        {
+            await SetAuthorizationHeader();
+            var response = await _httpClient.DeleteAsync($"Books/{id}");
+            return response.IsSuccessStatusCode;
+        }
+
+
+
+        // Authorization header with the token
         private async Task SetAuthorizationHeader()
         {
             if (TokenStorage.IsAuthenticated)

@@ -1,6 +1,8 @@
 # Ignore build output folders
 bin/
 obj/
+**/obj/
+**/bin/
 
 # Ignore Visual Studio files
 .vs/
@@ -21,3 +23,9 @@ app.publish/
 # Ignore temporary files
 *.log
 *.lock.json
+
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+*.assets.cache
+*.exe

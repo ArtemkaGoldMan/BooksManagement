@@ -10,6 +10,7 @@ using WPFClient.Helpers;
 using WPFClient.Services;
 using WPFClient.Views;
 using BaseLibrary.DTOs;
+using System.Security.Claims;
 
 namespace WPFClient.ViewModels
 {
@@ -64,10 +65,19 @@ namespace WPFClient.ViewModels
             {
                 var loginDto = new LoginUserDTO { Email = Email, Password = Password };
                 var result = await _authService.LoginAsync(loginDto);
-
                 if (TokenStorage.IsAuthenticated)
                 {
-                    _navigationService.NavigateTo<BooksWindow>();
+                    var claims = _authService.GetAuthenticationState().Claims;
+                    var roleClaim = claims.FirstOrDefault(c => c.Type == ClaimTypes.Role);
+
+                    if (roleClaim?.Value == "Admin")
+                    {
+                        _navigationService.NavigateTo<AdminBooksWindow>();
+                    }
+                    else
+                    {
+                        _navigationService.NavigateTo<BooksWindow>();
+                    }
                 }
                 else
                 {
