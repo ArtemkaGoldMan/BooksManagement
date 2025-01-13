@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MauiClient.Services;
+using MauiClient.Views;
 
 namespace MauiClient.ViewModel;
 
@@ -27,4 +28,5 @@ public partial class HomeViewModel : ObservableObject
         // Navigate to the Login Page
         await Shell.Current.GoToAsync("//LoginPage");
     }
+
 }

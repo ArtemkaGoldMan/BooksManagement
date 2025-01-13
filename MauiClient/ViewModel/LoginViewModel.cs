@@ -19,12 +19,10 @@ public partial class LoginViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public async Task LoginAsync()
+    private async Task LoginAsync()
     {
         try
         {
-            Console.WriteLine($"Attempting login with Email: {Email}");
-
             var token = await _loginService.LoginAsync(new BaseLibrary.DTOs.LoginUserDTO
             {
                 Email = Email,
@@ -40,18 +38,16 @@ public partial class LoginViewModel : ObservableObject
             // Update authentication state
             if (App.Current.MainPage is AppShell appShell)
             {
-                appShell.IsAuthenticated = true;
+                appShell.IsAuthenticated = true; // Show the TabBar and Logout button
             }
 
             // Navigate to the Home Page
-            await Shell.Current.GoToAsync("/HomePage");
+            await Shell.Current.GoToAsync("//HomePage");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Exception in LoginViewModel.LoginAsync: {ex.Message}");
-            ErrorMessage = "An error occurred during login.";
+            ErrorMessage = $"An error occurred: {ex.Message}";
         }
-
     }
 
     [RelayCommand]

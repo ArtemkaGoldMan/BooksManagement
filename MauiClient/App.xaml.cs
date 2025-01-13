@@ -12,22 +12,40 @@ public partial class App : Application
         Services = serviceProvider;
 
         MainPage = new AppShell();
+
+        // Check authentication on app startup
+        CheckAuthentication();
     }
 
     private async void CheckAuthentication()
     {
-        var appShell = MainPage as AppShell;
-        if (appShell == null) return;
-
-        appShell.IsAuthenticated = await new LoginService().IsAuthenticatedAsync();
-
-        if (appShell.IsAuthenticated)
+        try
         {
-            await Shell.Current.GoToAsync("HomePage");
+            // Retrieve the LoginService
+            var loginService = Services.GetService<LoginService>();
+            if (loginService == null)
+            {
+                throw new InvalidOperationException("LoginService is not registered in the service container.");
+            }
+
+            // Check authentication state
+            if (MainPage is not AppShell appShell) return;
+
+            appShell.IsAuthenticated = await loginService.IsAuthenticatedAsync();
+
+            // Navigate based on authentication state
+            if (appShell.IsAuthenticated)
+            {
+                await Shell.Current.GoToAsync("//HomePage");
+            }
+            else
+            {
+                await Shell.Current.GoToAsync("//LoginPage");
+            }
         }
-        else
+        catch (Exception ex)
         {
-            await Shell.Current.GoToAsync("LoginPage");
+            Console.WriteLine($"Error during authentication check: {ex.Message}");
         }
     }
 

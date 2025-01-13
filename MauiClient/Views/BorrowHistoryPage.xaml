@@ -1,0 +1,87 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiClient.ViewModel"
+             x:Class="MauiClient.Views.BorrowHistoryPage"
+             Title="Borrowed Books History">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Label Text="Borrowed Books History" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <!-- Action Buttons -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="All Borrowed Books"
+                        Command="{Binding LoadAllHistoryCommand}"
+                        BackgroundColor="DodgerBlue"
+                        TextColor="White"
+                        CornerRadius="10" />
+                <Button Text="Not Returned Books"
+                        Command="{Binding LoadNotReturnedBooksCommand}"
+                        BackgroundColor="Orange"
+                        TextColor="White"
+                        CornerRadius="10" />
+            </HorizontalStackLayout>
+
+            <!-- Borrow History List -->
+            <CollectionView ItemsSource="{Binding BorrowHistory}" Margin="0,20,0,10">
+                <CollectionView.EmptyView>
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label Text="No records available." TextColor="Gray" FontSize="16" />
+                    </VerticalStackLayout>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="10" Margin="5" Padding="10" BackgroundColor="LightGray" BorderColor="DarkGray">
+                            <VerticalStackLayout Spacing="2">
+                                <HorizontalStackLayout Spacing="5">
+                                    <Label Text="Borrow ID:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding BorrowId}" FontSize="12" />
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="5">
+                                    <Label Text="Book Title:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding BookTitle}" FontSize="12" />
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="5">
+                                    <Label Text="User Name:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding UserName}" FontSize="12" />
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="5">
+                                    <Label Text="Borrow Date:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding BorrowDate, StringFormat='{0:yyyy-MM-dd HH:mm:ss}'}" FontSize="12" />
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="5">
+                                    <Label Text="Return Date:" FontAttributes="Bold" FontSize="12" />
+                                    <Label Text="{Binding ReturnDate, Converter={StaticResource NullToNotReturnedConverter}}" FontSize="12" />
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+            <!-- Pagination Controls -->
+            <HorizontalStackLayout Spacing="15" HorizontalOptions="Center">
+                <Button Text="Previous"
+                        Command="{Binding PreviousPageCommand}"
+                        IsEnabled="{Binding CanGoPrevious}"
+                        BackgroundColor="Gray"
+                        TextColor="White"
+                        CornerRadius="10" />
+                <Label Text="{Binding CurrentPage, StringFormat='Page {0}'}" FontSize="14" VerticalOptions="Center" />
+                <Button Text="Next"
+                        Command="{Binding NextPageCommand}"
+                        IsEnabled="{Binding CanGoNext}"
+                        BackgroundColor="Gray"
+                        TextColor="White"
+                        CornerRadius="10" />
+            </HorizontalStackLayout>
+
+            <!-- Message -->
+            <Label Text="{Binding Message}" TextColor="Red" HorizontalOptions="Center" FontSize="14" IsVisible="{Binding Message, Converter={StaticResource NullOrEmptyToBoolConverter}}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

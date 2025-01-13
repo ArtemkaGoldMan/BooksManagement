@@ -29,6 +29,11 @@ namespace MauiClient
             builder.Services.AddSingleton<RegistrationViewModel>();
             builder.Services.AddSingleton<RegistrationPage>();
 
+            builder.Services.AddSingleton<HttpClient>();
+            builder.Services.AddSingleton<BorrowHistoryService>();
+            builder.Services.AddSingleton<BorrowHistoryViewModel>();
+            builder.Services.AddSingleton<BorrowHistoryPage>();
+
             builder.Services.AddSingleton<HomeViewModel>();
             builder.Services.AddSingleton<HomePage>();
 

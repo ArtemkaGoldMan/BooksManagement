@@ -28,6 +28,8 @@ public partial class AppShell : Shell
         Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
         Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
         Routing.RegisterRoute(nameof(RegistrationPage), typeof(RegistrationPage));
+        Routing.RegisterRoute(nameof(BorrowHistoryPage), typeof(BorrowHistoryPage));
+
 
         // Create the Logout button
         _logoutToolbarItem = new ToolbarItem
@@ -54,22 +56,24 @@ public partial class AppShell : Shell
 
     private void UpdateToolbar()
     {
-        // Add or remove the Logout button based on authentication state
         if (IsAuthenticated)
         {
+            MainTabBar.IsVisible = true; // Show TabBar
             if (!ToolbarItems.Contains(_logoutToolbarItem))
             {
-                ToolbarItems.Add(_logoutToolbarItem);
+                ToolbarItems.Add(_logoutToolbarItem); // Add Logout button
             }
         }
         else
         {
+            MainTabBar.IsVisible = false; // Hide TabBar
             if (ToolbarItems.Contains(_logoutToolbarItem))
             {
-                ToolbarItems.Remove(_logoutToolbarItem);
+                ToolbarItems.Remove(_logoutToolbarItem); // Remove Logout button
             }
         }
     }
+
 
     private static void OnIsAuthenticatedChanged(BindableObject bindable, object oldValue, object newValue)
     {
