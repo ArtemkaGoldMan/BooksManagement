@@ -19,11 +19,15 @@ namespace MauiClient
                 });
 
             // Register services and view models
-            builder.Services.AddSingleton<LoginService>();
             builder.Services.AddSingleton<TokenService>();
 
+            builder.Services.AddSingleton<LoginService>();
             builder.Services.AddSingleton<LoginViewModel>();
             builder.Services.AddSingleton<LoginPage>();
+
+            builder.Services.AddSingleton<RegistrationService>();
+            builder.Services.AddSingleton<RegistrationViewModel>();
+            builder.Services.AddSingleton<RegistrationPage>();
 
             builder.Services.AddSingleton<HomeViewModel>();
             builder.Services.AddSingleton<HomePage>();

@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MauiClient.Services;
+using MauiClient.Views;
 
 namespace MauiClient.ViewModel;
 
@@ -50,5 +51,13 @@ public partial class LoginViewModel : ObservableObject
             Console.WriteLine($"Exception in LoginViewModel.LoginAsync: {ex.Message}");
             ErrorMessage = "An error occurred during login.";
         }
+
     }
+
+    [RelayCommand]
+    private async Task NavigateToRegisterAsync()
+    {
+        await Shell.Current.GoToAsync("//RegistrationPage");
+    }
+
 }

@@ -6,8 +6,10 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MauiClient">
 
-    <!-- Login and Register Pages -->
+    <!-- Login and Registration Pages -->
     <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
+    <ShellContent Route="RegistrationPage" ContentTemplate="{DataTemplate views:RegistrationPage}" />
+
 
     <!-- Protected Pages -->
     <TabBar x:Name="MainTabBar" IsVisible="False">

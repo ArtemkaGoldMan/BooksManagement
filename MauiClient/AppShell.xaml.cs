@@ -24,8 +24,10 @@ public partial class AppShell : Shell
         // Retrieve the LoginService from the DI container
         _loginService = App.Services.GetService<LoginService>();
 
+        // Register routes
         Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
         Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
+        Routing.RegisterRoute(nameof(RegistrationPage), typeof(RegistrationPage));
 
         // Create the Logout button
         _logoutToolbarItem = new ToolbarItem
@@ -34,7 +36,7 @@ public partial class AppShell : Shell
             Command = new Command(async () => await HandleLogoutAsync())
         };
 
-        // Add or remove the Logout button based on authentication state
+        // Update the toolbar based on the authentication state
         UpdateToolbar();
     }
 
@@ -50,9 +52,9 @@ public partial class AppShell : Shell
         await Shell.Current.GoToAsync("//LoginPage");
     }
 
-
     private void UpdateToolbar()
     {
+        // Add or remove the Logout button based on authentication state
         if (IsAuthenticated)
         {
             if (!ToolbarItems.Contains(_logoutToolbarItem))

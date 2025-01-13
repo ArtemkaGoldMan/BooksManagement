@@ -10,5 +10,8 @@
         <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True" />
         <Label Text="{Binding ErrorMessage}" TextColor="Red" />
         <Button Text="Login" Command="{Binding LoginCommand}" />
+
+        <Button Text="Register" Command="{Binding NavigateToRegisterCommand}" />
+
     </VerticalStackLayout>
 </ContentPage>

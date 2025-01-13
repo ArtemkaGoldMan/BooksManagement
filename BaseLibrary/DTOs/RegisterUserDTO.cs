@@ -26,8 +26,5 @@ namespace BaseLibrary.DTOs
         [Compare("Password", ErrorMessage = "Passwords do not match.")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
-
-        [Phone(ErrorMessage = "Invalid phone number.")]
-        public string? PhoneNumber { get; set; }
     }
 }
