@@ -11,10 +11,19 @@ public partial class AppShell : Shell
     public static readonly BindableProperty IsAuthenticatedProperty =
         BindableProperty.Create(nameof(IsAuthenticated), typeof(bool), typeof(AppShell), false, propertyChanged: OnIsAuthenticatedChanged);
 
+    public static readonly BindableProperty UserRoleProperty =
+        BindableProperty.Create(nameof(UserRole), typeof(string), typeof(AppShell), string.Empty, propertyChanged: OnUserRoleChanged);
+
     public bool IsAuthenticated
     {
         get => (bool)GetValue(IsAuthenticatedProperty);
         set => SetValue(IsAuthenticatedProperty, value);
+    }
+
+    public string UserRole
+    {
+        get => (string)GetValue(UserRoleProperty);
+        set => SetValue(UserRoleProperty, value);
     }
 
     public AppShell()
@@ -30,7 +39,6 @@ public partial class AppShell : Shell
         Routing.RegisterRoute(nameof(RegistrationPage), typeof(RegistrationPage));
         Routing.RegisterRoute(nameof(BorrowHistoryPage), typeof(BorrowHistoryPage));
 
-
         // Create the Logout button
         _logoutToolbarItem = new ToolbarItem
         {
@@ -38,23 +46,36 @@ public partial class AppShell : Shell
             Command = new Command(async () => await HandleLogoutAsync())
         };
 
-        // Update the toolbar based on the authentication state
-        UpdateToolbar();
+        // Initialize the authentication state and user role
+        InitializeAuthenticationState();
+    }
+
+    private async void InitializeAuthenticationState()
+    {
+        IsAuthenticated = !string.IsNullOrEmpty(await SecureStorage.GetAsync("JwtToken"));
+        UserRole = await SecureStorage.GetAsync("UserRole") ?? string.Empty;
+
+        Console.WriteLine($"Initialized UserRole: {UserRole}");
+        Console.WriteLine($"Initialized IsAuthenticated: {IsAuthenticated}");
+
+        UpdateToolbarAndTabs();
     }
 
     private async Task HandleLogoutAsync()
     {
         await _loginService.LogoutAsync();
         SecureStorage.Default.Remove("JwtToken");
+        SecureStorage.Default.Remove("UserRole");
 
         // Clear authentication state
         IsAuthenticated = false;
+        UserRole = string.Empty;
 
         // Navigate to the Login Page
         await Shell.Current.GoToAsync("//LoginPage");
     }
 
-    private void UpdateToolbar()
+    private void UpdateToolbarAndTabs()
     {
         if (IsAuthenticated)
         {
@@ -62,6 +83,19 @@ public partial class AppShell : Shell
             if (!ToolbarItems.Contains(_logoutToolbarItem))
             {
                 ToolbarItems.Add(_logoutToolbarItem); // Add Logout button
+            }
+
+            // Show or hide the BorrowHistoryPage tab based on the user role
+            var borrowHistoryTab = MainTabBar.Items.FirstOrDefault(t => t.Title == "Borrow History");
+            if (UserRole == "Admin")
+            {
+                if (borrowHistoryTab != null)
+                    borrowHistoryTab.IsVisible = true; // Show the tab if the user is an admin
+            }
+            else
+            {
+                if (borrowHistoryTab != null)
+                    borrowHistoryTab.IsVisible = false; // Hide the tab for non-admin users
             }
         }
         else
@@ -74,12 +108,19 @@ public partial class AppShell : Shell
         }
     }
 
-
     private static void OnIsAuthenticatedChanged(BindableObject bindable, object oldValue, object newValue)
     {
         if (bindable is AppShell shell)
         {
-            shell.UpdateToolbar();
+            shell.UpdateToolbarAndTabs();
+        }
+    }
+
+    private static void OnUserRoleChanged(BindableObject bindable, object oldValue, object newValue)
+    {
+        if (bindable is AppShell shell)
+        {
+            shell.UpdateToolbarAndTabs();
         }
     }
 }

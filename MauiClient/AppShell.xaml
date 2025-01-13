@@ -6,23 +6,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MauiClient">
 
-
-    <!-- Toolbar Items <Shell.ToolbarItems>
-    <ToolbarItem Text="Borrow History" 
-                 Command="{Binding NavigateToBorrowHistoryCommand}" />
-</Shell.ToolbarItems>-->
-
     <!-- Login and Registration Pages -->
     <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
     <ShellContent Route="RegistrationPage" ContentTemplate="{DataTemplate views:RegistrationPage}" />
-
 
     <!-- Protected Pages -->
     <TabBar x:Name="MainTabBar" IsVisible="False">
         <Tab Title="Home">
             <ShellContent Route="HomePage" ContentTemplate="{DataTemplate views:HomePage}" />
         </Tab>
-        <Tab Title="Borrow History">
+        <Tab Title="Borrow History" IsVisible="False">
             <ShellContent Route="BorrowHistoryPage" ContentTemplate="{DataTemplate views:BorrowHistoryPage}" />
         </Tab>
     </TabBar>
