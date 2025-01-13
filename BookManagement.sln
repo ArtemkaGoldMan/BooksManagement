@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEBMVC", "WEBMVC\WEBMVC.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFClient", "WPFClient\WPFClient.csproj", "{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiClient", "MauiClient\MauiClient.csproj", "{67422DFE-EC8C-4949-9749-6D6270EBF9F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,12 @@ Global
 		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831CC47B-7A92-4CA3-A57E-3CEA09D2CE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67422DFE-EC8C-4949-9749-6D6270EBF9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67422DFE-EC8C-4949-9749-6D6270EBF9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67422DFE-EC8C-4949-9749-6D6270EBF9F6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67422DFE-EC8C-4949-9749-6D6270EBF9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67422DFE-EC8C-4949-9749-6D6270EBF9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67422DFE-EC8C-4949-9749-6D6270EBF9F6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

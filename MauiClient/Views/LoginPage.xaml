@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:MauiClient.ViewModel"
+             x:Class="MauiClient.Views.LoginPage"
+             Title="Login">
+
+    <VerticalStackLayout Padding="20" VerticalOptions="CenterAndExpand">
+        <Entry Placeholder="Email" Text="{Binding Email}" Keyboard="Email" />
+        <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True" />
+        <Label Text="{Binding ErrorMessage}" TextColor="Red" />
+        <Button Text="Login" Command="{Binding LoginCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
