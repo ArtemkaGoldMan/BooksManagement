@@ -3,7 +3,7 @@
 Projekt dotyczy stworzenia aplikacji do zarządzania użytkownikami oraz książkami, w tym wypożyczaniem i zwracaniem książek. Aplikacja ma na celu usprawnienie procesów związanych z obsługą użytkowników, zarządzaniem zasobami książek oraz monitorowaniem historii wypożyczeń. Dzięki temu biblioteki i inne instytucje mogą skuteczniej zarządzać swoimi zasobami oraz dostarczać użytkownikom lepsze doświadczenie.
 
 Główne funkcje aplikacji:
-1. **Zarządzanie użytkownikami** – rejestracja, logowanie, usuwanie oraz przegląd użytkowników przez administratora.
+1. **Zarządzanie użytkownikami** – rejestracja, logowanie.
 2. **Zarządzanie książkami** – dodawanie, edycja, usuwanie oraz wyszukiwanie książek.
 3. **Wypożyczanie i zwrot książek** – umożliwienie użytkownikom wypożyczania i zwracania książek oraz monitorowanie statusu książek.
 4. **Monitorowanie historii wypożyczeń** – przechowywanie historii wypożyczeń, zarówno dla administratorów, jak i użytkowników.
@@ -15,13 +15,12 @@ Główne funkcje aplikacji:
    - Rejestracja i logowanie użytkowników.
    - Generowanie tokenów JWT w celu uwierzytelniania.
    - Role użytkowników: Administrator i Zwykły Użytkownik.
-   - Możliwość przeglądania i usuwania użytkowników przez administratora.
    
 2. **Moduł zarządzania książkami:**
    - Dodawanie nowych książek (dostępne dla administratorów).
-   - Edycja szczegółów książek.
-   - Wyszukiwanie książek z możliwością sortowania i filtrowania.
-   - Usuwanie książek przez administratora.
+   - Edycja szczegółów książek (dostępne dla administratorów).
+   - Wyszukiwanie książek z możliwością sortowania i filtrowania .
+   - Usuwanie książek przez administratora (dostępne dla administratorów).
 
 3. **Moduł wypożyczania książek:**
    - Wypożyczanie książek przez użytkowników.
