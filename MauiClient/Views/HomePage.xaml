@@ -5,7 +5,7 @@
              x:Class="MauiClient.Views.HomePage"
              Title="HomePage">
     <VerticalStackLayout Padding="20">
-        <Label Text="Welcome to the Home Page!" FontSize="24" HorizontalOptions="Center" />
+        <Label Text="Welcome to our library!" FontSize="24" HorizontalOptions="Center" />
         <Button Text="Logout" Command="{Binding LogoutCommand}" />
     </VerticalStackLayout>
 </ContentPage>

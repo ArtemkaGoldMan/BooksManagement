@@ -4,14 +4,25 @@
              xmlns:vm="clr-namespace:MauiClient.ViewModel"
              x:Class="MauiClient.Views.LoginPage"
              Title="Login">
-
-    <VerticalStackLayout Padding="20" VerticalOptions="CenterAndExpand">
-        <Entry Placeholder="Email" Text="{Binding Email}" Keyboard="Email" />
-        <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True" />
-        <Label Text="{Binding ErrorMessage}" TextColor="Red" />
-        <Button Text="Login" Command="{Binding LoginCommand}" />
-
-        <Button Text="Register" Command="{Binding NavigateToRegisterCommand}" />
-
+    <VerticalStackLayout Padding="20" 
+                        VerticalOptions="CenterAndExpand" 
+                        Spacing="10"
+                        MaximumWidthRequest="300">
+        <Entry Placeholder="Email" 
+               Text="{Binding Email}" 
+               Keyboard="Email"
+               HeightRequest="40" />
+        <Entry Placeholder="Password" 
+               Text="{Binding Password}" 
+               IsPassword="True"
+               HeightRequest="40" />
+        <Label Text="{Binding ErrorMessage}" 
+               TextColor="Red" />
+        <Button Text="Login" 
+                Command="{Binding LoginCommand}"
+                HeightRequest="40" />
+        <Button Text="Register" 
+                Command="{Binding NavigateToRegisterCommand}"
+                HeightRequest="40" />
     </VerticalStackLayout>
 </ContentPage>

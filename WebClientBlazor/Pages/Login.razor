@@ -11,15 +11,17 @@
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    <div>
+    <div class="form-group" style="margin-bottom: 1rem;">
         <label for="email">Email:</label>
-        <InputText id="email" @bind-Value="loginModel.Email" placeholder="Enter your email" />
+        <InputText id="email" @bind-Value="loginModel.Email" placeholder="Enter your email" class="form-control" style="width: 250px;" />
     </div>
-    <div>
+    <div class="form-group" style="margin-bottom: 1.5rem;">
         <label for="password">Password:</label>
-        <InputText id="password" @bind-Value="loginModel.Password" type="password" placeholder="Enter your password" />
+        <InputText id="password" @bind-Value="loginModel.Password" type="password" placeholder="Enter your password" class="form-control" style="width: 250px;" />
     </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+    <div style="margin-top: 20px;">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
 </EditForm>
 
 @if (!string.IsNullOrEmpty(errorMessage))
