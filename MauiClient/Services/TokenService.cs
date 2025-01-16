@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
@@ -40,6 +41,7 @@ namespace MauiClient.Services
         {
             // Remove the token from secure storage
             SecureStorage.Remove("JwtToken");
+            SecureStorage.Remove("UserRole");
         }
 
         public async Task<int?> GetLoggedInUserIdAsync()

@@ -33,7 +33,7 @@ namespace MauiClient.Services
             var token = jsonData.GetProperty("token").GetString();
             if (!string.IsNullOrEmpty(token))
             {
-               
+
                 var claims = ParseClaimsFromJwt(token);
 
 
@@ -54,12 +54,12 @@ namespace MauiClient.Services
         {
             var payload = jwt.Split('.')[1];
             var jsonBytes = ParseBase64WithoutPadding(payload);
-            var keyValuePairs = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonBytes); //deserializujemy json do słownika
+            var keyValuePairs = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonBytes);
 
             return keyValuePairs.Select(kvp => new System.Security.Claims.Claim(kvp.Key, kvp.Value.ToString()));
         }
 
-        private byte[] ParseBase64WithoutPadding(string base64) // usuwa brakujące znaki paddingu (=)
+        private byte[] ParseBase64WithoutPadding(string base64)
         {
             base64 = base64.Replace('-', '+').Replace('_', '/');
             switch (base64.Length % 4)
