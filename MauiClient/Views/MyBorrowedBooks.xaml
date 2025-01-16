@@ -1,0 +1,53 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiClient.ViewModel"
+             x:Class="MauiClient.Views.MyBorrowedBooks"
+             Title="My Borrowed Books">
+
+    <Grid RowDefinitions="*" Padding="20">
+        <CollectionView ItemsSource="{Binding BorrowedBooks}"
+                       SelectionMode="None">
+            <CollectionView.EmptyView>
+                <VerticalStackLayout HorizontalOptions="Center" 
+                                   VerticalOptions="Center">
+                    <Label Text="No borrowed books" 
+                           TextColor="Gray" 
+                           FontSize="16"/>
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,5" Padding="10" BorderColor="LightGray">
+                        <Grid ColumnDefinitions="2*,2*,2*,Auto">
+                            <VerticalStackLayout Grid.Column="0">
+                                <Label Text="Title" FontAttributes="Bold" FontSize="12"/>
+                                <Label Text="{Binding BookTitle}" FontSize="14"/>
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout Grid.Column="1">
+                                <Label Text="Author" FontAttributes="Bold" FontSize="12"/>
+                                <Label Text="{Binding UserName}" FontSize="14"/>
+                            </VerticalStackLayout>
+
+                            <VerticalStackLayout Grid.Column="2">
+                                <Label Text="Borrow Date" FontAttributes="Bold" FontSize="12"/>
+                                <Label Text="{Binding BorrowDate, StringFormat='{0:d}'}" FontSize="14"/>
+                            </VerticalStackLayout>
+
+                            <Button Grid.Column="3"
+                                   Text="Return"
+                                   Command="{Binding Source={RelativeSource AncestorType={x:Type vm:MyBorrowedBooksViewModel}}, Path=ReturnBookCommand}"
+                                   CommandParameter="{Binding}"
+                                   BackgroundColor="DodgerBlue"
+                                   TextColor="White"
+                                   HeightRequest="35"
+                                   WidthRequest="70"
+                                   FontSize="12"
+                                   VerticalOptions="Center"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

@@ -28,17 +28,17 @@ public partial class LoginViewModel : ObservableObject
                 Email = Email,
                 Password = Password
             });
-
             if (string.IsNullOrEmpty(token))
             {
                 ErrorMessage = "Invalid credentials. Please try again.";
                 return;
             }
 
-            // Update authentication state
+            // Update both authentication state and user role
             if (App.Current.MainPage is AppShell appShell)
             {
-                appShell.IsAuthenticated = true; // Show the TabBar and Logout button
+                appShell.IsAuthenticated = true;
+                appShell.UserRole = await SecureStorage.GetAsync("UserRole") ?? string.Empty;
             }
 
             // Navigate to the Home Page

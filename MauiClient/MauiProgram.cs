@@ -25,9 +25,15 @@ namespace MauiClient
             builder.Services.AddSingleton<LoginViewModel>();
             builder.Services.AddSingleton<LoginPage>();
 
+
             builder.Services.AddSingleton<RegistrationService>();
             builder.Services.AddSingleton<RegistrationViewModel>();
             builder.Services.AddSingleton<RegistrationPage>();
+
+
+            builder.Services.AddSingleton<BooksManagementPage>();
+            builder.Services.AddSingleton<BooksService>();
+            builder.Services.AddSingleton<BooksManagementViewModel>();
 
             builder.Services.AddSingleton<HttpClient>();
             builder.Services.AddSingleton<BorrowHistoryService>();
@@ -36,6 +42,12 @@ namespace MauiClient
 
             builder.Services.AddSingleton<HomeViewModel>();
             builder.Services.AddSingleton<HomePage>();
+
+            builder.Services.AddSingleton<AllBooksMember>(); //page
+            builder.Services.AddSingleton<AllBooksMemberViewModel>();
+
+            builder.Services.AddSingleton<MyBorrowedBooksViewModel>();
+            builder.Services.AddSingleton<MyBorrowedBooks>(); //page
 
 
 #if DEBUG

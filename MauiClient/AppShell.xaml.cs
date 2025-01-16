@@ -38,6 +38,7 @@ public partial class AppShell : Shell
         Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
         Routing.RegisterRoute(nameof(RegistrationPage), typeof(RegistrationPage));
         Routing.RegisterRoute(nameof(BorrowHistoryPage), typeof(BorrowHistoryPage));
+        Routing.RegisterRoute(nameof(BooksManagementPage), typeof(BooksManagementPage));
 
         // Create the Logout button
         _logoutToolbarItem = new ToolbarItem
@@ -87,16 +88,32 @@ public partial class AppShell : Shell
 
             // Show or hide the BorrowHistoryPage tab based on the user role
             var borrowHistoryTab = MainTabBar.Items.FirstOrDefault(t => t.Title == "Borrow History");
-            if (UserRole == "Admin")
+            if (borrowHistoryTab != null)
             {
-                if (borrowHistoryTab != null)
-                    borrowHistoryTab.IsVisible = true; // Show the tab if the user is an admin
+                // Use case-insensitive comparison
+                borrowHistoryTab.IsVisible = UserRole.Equals("Admin", StringComparison.OrdinalIgnoreCase);
             }
-            else
+
+
+            var booksManagementTab = MainTabBar.Items.FirstOrDefault(t => t.Title == "Books Management");
+            if (booksManagementTab != null)
             {
-                if (borrowHistoryTab != null)
-                    borrowHistoryTab.IsVisible = false; // Hide the tab for non-admin users
+                booksManagementTab.IsVisible = UserRole.Equals("Admin", StringComparison.OrdinalIgnoreCase);
             }
+
+
+            var allBooksTab = MainTabBar.Items.FirstOrDefault(t => t.Title == "All Books");
+            if (allBooksTab != null)
+            {
+                allBooksTab.IsVisible = UserRole.Equals("Member", StringComparison.OrdinalIgnoreCase);
+            }
+
+            var myBorrowedBooksTab = MainTabBar.Items.FirstOrDefault(t => t.Title == "My Borrowed Books");
+            if (myBorrowedBooksTab != null)
+            {
+                myBorrowedBooksTab.IsVisible = UserRole.Equals("Member", StringComparison.OrdinalIgnoreCase);
+            }
+
         }
         else
         {

@@ -43,6 +43,7 @@ namespace MauiClient.Services
 
                 if (!string.IsNullOrEmpty(role))
                 {
+                    Console.WriteLine($"Setting user role: {role}"); // Debug log
                     await SecureStorage.SetAsync("UserRole", role);
                 }
             }

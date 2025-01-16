@@ -18,5 +18,14 @@
         <Tab Title="Borrow History" IsVisible="False">
             <ShellContent Route="BorrowHistoryPage" ContentTemplate="{DataTemplate views:BorrowHistoryPage}" />
         </Tab>
+        <Tab Title="Books Management" IsVisible="False">
+            <ShellContent Route="BooksManagementPage" ContentTemplate="{DataTemplate views:BooksManagementPage}" />
+        </Tab>
+        <Tab Title="All Books" IsVisible="False">
+            <ShellContent Route="AllBooksMember" ContentTemplate="{DataTemplate views:AllBooksMember}" />
+        </Tab>
+        <Tab Title="My Borrowed Books" IsVisible="False">
+            <ShellContent Route="MyBorrowedBooks" ContentTemplate="{DataTemplate views:MyBorrowedBooks}" />
+        </Tab>
     </TabBar>
 </Shell>
